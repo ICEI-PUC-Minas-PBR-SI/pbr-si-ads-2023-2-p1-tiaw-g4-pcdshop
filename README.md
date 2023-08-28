@@ -8,15 +8,19 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+45 Milhões de brasileiros (cerca de 23% da população brasileira) possui algum tipo de deficiência, sendo ela - visual, auditiva, motora, mental ou intelectual. 
+Buscando atender essas pessoas, nosso projeto visa criar um marketplace, onde todo produto nele anunciado, tenha alguma utilidade para esse grupo de pessoas.
+Nesse Marketplace, os vendedores (p2p) anunciariam seus produtos, e seriam responsáveis por toda logistica de entrega, sendo nós, a PCD SHOP, apenas o intermediador.
 
-## Integrantes
+##, Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+Samuel Thiago Magalhães Lara
+Arthur Antunes Mendes Barcelos
+Mateus Guimarães Figueiredo Ferreira de Souza
+Miguel Araújo Barbosa
+Luis Felipe Marques Bernardes
+Igor Emanuel Moreira da Fonseca
+Artur Freitas Xavier Oliveira
 
 ## Orientador
 
