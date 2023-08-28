@@ -24,8 +24,10 @@ Nesse Marketplace, os vendedores (p2p) anunciariam seus produtos, e seriam respo
 
 ## Orientador
 
-* Nome completo do professor 1
-* 
+* Prof. Fábio Leandro Rodrigues Cordeiro.ME
+* ProfA. Shirley Luana
+* ProfA. Franciele
+
 
 # Planejamento
 
