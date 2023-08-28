@@ -14,17 +14,18 @@ Nesse Marketplace, os vendedores (p2p) anunciariam seus produtos, e seriam respo
 
 ##, Integrantes
 
-Samuel Thiago Magalhães Lara
-Arthur Antunes Mendes Barcelos
-Mateus Guimarães Figueiredo Ferreira de Souza
-Miguel Araújo Barbosa
-Luis Felipe Marques Bernardes
-Igor Emanuel Moreira da Fonseca
-Artur Freitas Xavier Oliveira
+* Samuel Thiago Magalhães Lara
+* Arthur Antunes Mendes Barcelos
+* Mateus Guimarães Figueiredo Ferreira de Souza
+* Miguel Araújo Barbosa
+* Luis Felipe Marques Bernardes
+* Igor Emanuel Moreira da Fonseca
+* Artur Freitas Xavier Oliveira
 
 ## Orientador
 
 * Nome completo do professor 1
+* 
 
 # Planejamento
 
