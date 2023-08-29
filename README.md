@@ -12,7 +12,7 @@
 Buscando atender essas pessoas, nosso projeto visa criar um marketplace, onde todo produto nele anunciado, tenha alguma utilidade para esse grupo de pessoas.
 Nesse Marketplace, os vendedores (p2p) anunciariam seus produtos, e seriam responsáveis por toda logistica de entrega, sendo nós, a PCD SHOP, apenas o intermediador.
 
-##, Integrantes
+## Integrantes
 
 * Samuel Thiago Magalhães Lara
 * Arthur Antunes Mendes Barcelos
