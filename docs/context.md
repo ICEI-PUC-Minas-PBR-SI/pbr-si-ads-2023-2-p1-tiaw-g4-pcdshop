@@ -1,26 +1,18 @@
 # Introdução
+Introdução:
+Na sociedade atual, com os avanços tecnológicos e democratização da voz pública,  muitas causas sociais tem ganhado visibilidade, a inclusão e acessibilidade para pessoas com deficiência (PCD) não fica de fora, sendo uma das causas fundamentais discutidas hoje. Com o objetivo de promover uma participação mais ativa e igualitária no mercado de consumo, nosso projeto visa a criação de um inovador marketplace online voltado para PCD. Este projeto visa não apenas atender às necessidades específicas desse público, mas também democratizar o acesso a produtos e serviços, especialmente para aqueles que enfrentam limitações financeiras ou não sabem como e onde adquirir produtos para atender suas demandas.
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+Apesar dos avanços conquistados no campo da inclusão, ainda existem barreiras consideráveis que dificultam o acesso de PCD a produtos adequados às suas necessidades. A busca por produtos especializados muitas vezes é complexa e/ou cara, seja pela falta de opções direcionadas para sua procura, ou limitações de mobilidade que dificultam a visita física a tais estabelecimentos.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+Nosso objetivo com este site é apresentar para o publico alvo um facil metodo de conseguir seus utensílios especiais(próteses, cadeira de rodas,etc…), de forma que também qualquer pessoa consiga acessar o site para poder revender utensílios para PCD, queremos tambem fazer parcerias com hospitais, para pacientes que estão em atendimento ja tenha o conhecimento dos produtos com preços acessíveis do nosso marketplace, podendo ter tambem lojas especializadas dentro do proprio site vendendo seus itens, sendo ou nao com produtos de outras pessoas ou lojas do site.
 
+A falta de opções centralizadas e dedicadas para PCD pode criar barreiras à participação plena na sociedade. Além disso, essa aplicação pode contribuir para a conscientização sobre a importância da acessibilidade e da igualdade.
+A decisão de focar em objetivos específicos, como a variedade de produtos adaptados e a avaliação dos vendedores em termos de acessibilidade, visa atender às lacunas existentes no mercado atual.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+PROBLEMA: Usuários com deficiências frequentemente enfrentam desafios ao comprar produtos em lojas para pessoas com deficiência. Problemas como falta de acessibilidade no espaço físico, informações inadequadas sobre os produtos, falta de treinamento da equipe em lidar com necessidades específicas e preços elevados podem dificultar a experiência de compra para esses usuários. Isso ressalta a importância de tornar as lojas PCD mais inclusivas e acessíveis para garantir uma experiência de compra positiva para todos.
 
 ## Objetivos
 
@@ -33,17 +25,11 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Justificativa: Ajudar pessoas com deficiências diversas a obterem soluções/apoio para seus respectivos  problemas, também influenciando outras pessoas a disponibilizar suas soluções para tal.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Público Alvo : Pessoas com deficiência, que quisessem fazer a compra ou venda de próteses ou equipamentos de auxílio para pcds abrangendo também hospitais que poderiam fazer a venda de tais objetos também como lojas especializadas em atender pessoas com deficiência que poderiam anunciar seus produtos.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
