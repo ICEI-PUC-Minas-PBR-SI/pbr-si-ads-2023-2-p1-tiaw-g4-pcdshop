@@ -1,5 +1,4 @@
 # Introdução
-Introdução:
 Na sociedade atual, com os avanços tecnológicos e democratização da voz pública,  muitas causas sociais tem ganhado visibilidade, a inclusão e acessibilidade para pessoas com deficiência (PCD) não fica de fora, sendo uma das causas fundamentais discutidas hoje. Com o objetivo de promover uma participação mais ativa e igualitária no mercado de consumo, nosso projeto visa a criação de um inovador marketplace online voltado para PCD. Este projeto visa não apenas atender às necessidades específicas desse público, mas também democratizar o acesso a produtos e serviços, especialmente para aqueles que enfrentam limitações financeiras ou não sabem como e onde adquirir produtos para atender suas demandas.
 
 Apesar dos avanços conquistados no campo da inclusão, ainda existem barreiras consideráveis que dificultam o acesso de PCD a produtos adequados às suas necessidades. A busca por produtos especializados muitas vezes é complexa e/ou cara, seja pela falta de opções direcionadas para sua procura, ou limitações de mobilidade que dificultam a visita física a tais estabelecimentos.
@@ -12,24 +11,26 @@ A decisão de focar em objetivos específicos, como a variedade de produtos adap
 
 ## Problema
 
-PROBLEMA: Usuários com deficiências frequentemente enfrentam desafios ao comprar produtos em lojas para pessoas com deficiência. Problemas como falta de acessibilidade no espaço físico, informações inadequadas sobre os produtos, falta de treinamento da equipe em lidar com necessidades específicas e preços elevados podem dificultar a experiência de compra para esses usuários. Isso ressalta a importância de tornar as lojas PCD mais inclusivas e acessíveis para garantir uma experiência de compra positiva para todos.
+Usuários com deficiências frequentemente enfrentam desafios ao comprar produtos em lojas para pessoas com deficiência. Problemas como falta de acessibilidade no espaço físico, informações inadequadas sobre os produtos, falta de treinamento da equipe em lidar com necessidades específicas e preços elevados podem dificultar a experiência de compra para esses usuários. Isso ressalta a importância de tornar as lojas PCD mais inclusivas e acessíveis para garantir uma experiência de compra positiva para todos.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Criar uma plataforma de simples e fácil acesso que reúne vendedores de artigos, usados ou novos, para Pessoas com Deficiência (PcD) com aqueles que necessitam desses produtos independentemente da situação financeira, social ou de idade.
+Nossos objetivos específicos incluem:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Facilitar a compra de produtos PcD apresentado preços mais acessíveis, assim não restringindo o acesso à tais equipamentos.
+
+- Reunir vendedores de peças usadas ou lojas especializadas em artigos PcD em um só lugar proporcionando uma rede de comunicação com possíveis compradores.
+
+- Apresentar uma ferramenta de uso simples e intuitivo oferecendo uma boa  experiência para todos os tipos de usuários
 
 ## Justificativa
 
-Justificativa: Ajudar pessoas com deficiências diversas a obterem soluções/apoio para seus respectivos  problemas, também influenciando outras pessoas a disponibilizar suas soluções para tal.
+Ajudar pessoas com deficiências diversas a obterem soluções/apoio para seus respectivos  problemas, também influenciando outras pessoas a disponibilizar suas soluções para tal.
 
 ## Público-Alvo
 
-Público Alvo : Pessoas com deficiência, que quisessem fazer a compra ou venda de próteses ou equipamentos de auxílio para pcds abrangendo também hospitais que poderiam fazer a venda de tais objetos também como lojas especializadas em atender pessoas com deficiência que poderiam anunciar seus produtos.
+Pessoas com deficiência, que quisessem fazer a compra ou venda de próteses ou equipamentos de auxílio para pcds abrangendo também hospitais que poderiam fazer a venda de tais objetos também como lojas especializadas em atender pessoas com deficiência que poderiam anunciar seus produtos.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
