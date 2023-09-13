@@ -46,9 +46,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-
+|RF-001| Permitir cadastros de novos usuários | ALTA |  |
+|RF-002| Permitir login na conta   | ALTA | |
+|RF-003| O Sistema poderá oferecer rastreio de produto | ALTA | |
+|RF-004| O Sistema deverá ter um sistema de avaliação de produto e perfil | MEDIA | |
+|RF-005| O Sistema deverá oferecer suporte ao comprador | MEDIA | |
+|RF-006| Permitir a edição e exclusão de usuários no sistema | MEDIA | | 
+|RF-007| O sistema deverá gerar automaticamente um codigo único para cada novo usuário | ALTA | |
+|RF-008| Exibir uma mensagem caso o novo usuário tente cadastrar uma conta com um usuário ou email que já esteja cadastrado | ALTA | |
+|RF-009| O vendedor poderá criar cadastro, anunciar, editar e excluir produtos | ALTA | |
+|RF-010| Gerar automaticamente um codigo referente a cada novo produto cadastrado | ALTA | |
+|RF-011| A aplicação deverá possuir um processo de compra de produtos incluindo checkout e carrinho | ALTA | |
+|RF-012| O sistema deverá permitir o comprador realizar o cancelamento de uma compra caso esteja adequado ao codigo de defesa do consumidor | ALTA | |
 
 ### Requisitos não Funcionais
 
