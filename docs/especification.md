@@ -57,7 +57,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009| O vendedor poderá criar cadastro, anunciar, editar e excluir produtos | ALTA | |
 |RF-010| Gerar automaticamente um codigo referente a cada novo produto cadastrado | ALTA | |
 |RF-011| A aplicação deverá possuir um processo de compra de produtos incluindo checkout e carrinho | ALTA | |
-|RF-012| O sistema deverá permitir o comprador realizar o cancelamento de uma compra caso esteja adequado ao codigo de defesa do consumidor | ALTA | |
+|RF-012| O sistema deverá permitir o comprador realizar o cancelamento de uma compra caso esteja adequado ao codigo de defesa do consumidor | ALTA | 
+|RF-013| Deve ser obrigatorio que o usário insira sua dara de nascimento|ALTA|
 
 ### Requisitos não Funcionais
 
@@ -65,6 +66,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| O sistema deve oferecer facilidades para determinados tipos de usuários.|MEDIA|
+|RNF-004| Deve aceitar diversos meios de pagamento|ALTA|
+|RNF-005| O sistema deve ter capacidade para recuperar os dados perdidos da últims recuperação em que realizou em caso de falha|MEDIA|
+|RNF-006| O sistema deve manter todos os cadastros de produtos em um banco de dados|MEDIA|
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -87,8 +92,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| Não é possível realizar uma compra ou uma venda sem ter cadastro |
+|02| O cadastro só pode ser efetuado após a verificação do email        |
+|03| A senha a ser criada deve conter no minímo 6 caracteres, letras e números, sendo pelo menos 1 maiúsculo |
+|04| O projeto deverá ser entregue até o fim do semestre |
+|05| O Login só deverá ser permitido no caso da realização do cadastro |
+|06| Só poderá ser utilizado para maiores de 18 anos |
+|07| O usuário não poderá ser reembolsado caso já tenha utilizado o produto |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
