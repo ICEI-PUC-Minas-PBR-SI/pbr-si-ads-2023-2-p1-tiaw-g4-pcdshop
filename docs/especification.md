@@ -6,19 +6,40 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+1. Persona "Acessibilidade Prioritária":
+- Nome: Letícia
+- Idade: 35 anos
+- Deficiência: Usuária de cadeira de rodas devido a paraplegia
+- Objetivo: Encontrar produtos/serviços que facilitem a sua mobilidade e acessibilidade
+- Descrição: Letícia é uma pessoa com mobilidade reduzida devido a uma lesão na medula espinhal. Ela busca produtos/serviços que priorizem a acessibilidade e que possam facilitar a sua mobilidade, como cadeiras de rodas especiais, rampas portáteis, serviços de adaptação de ambientes, entre outros. Letícia valoriza fornecedores que entendam as necessidades específicas das pessoas com deficiência e ofereçam produtos/serviços de qualidade.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+2. Persona "Inclusão Digital":
+- Nome: Tiago
+- Idade: 28 anos
+- Deficiência: Deficiência visual
+- Objetivo: Encontrar produtos/serviços que promovam a inclusão digital
+- Descrição: Tiago é uma pessoa com deficiência visual e valoriza a inclusão digital. Ele busca produtos/serviços que possibilitem o acesso à tecnologia e a dispositivos adaptados para pessoas com deficiência visual, como softwares de leitura de tela, teclados adaptados, smart devices e acessórios tecnológicos. Tiago valoriza fornecedores que ofereçam suporte e orientação para o uso de seus produtos/serviços.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+3. Persona "Acessibilidade no Ambiente Doméstico":
+- Nome: Ana
+- Idade: 45 anos
+- Deficiência: Deficiência auditiva
+- Objetivo: Encontrar produtos/serviços que promovam a acessibilidade no ambiente doméstico
+- Descrição: Ana é uma pessoa com deficiência auditiva e está em busca de produtos/serviços que promovam a acessibilidade em sua casa. Ela busca equipamentos e dispositivos adaptados, como sistemas de alerta visual para campainha, alarmes de incêndio com luzes, detectores de vazamento de gás com sinal visual, entre outros. Ana valoriza fornecedores que ofereçam soluções práticas e confiáveis para promover a segurança e acessibilidade em seu lar.
+
+4. Persona "Inclusão no Mercado de Trabalho":
+- Nome: Rafael
+- Idade: 30 anos
+- Deficiência: Deficiência intelectual
+- Objetivo: Encontrar produtos/serviços que facilitem a inclusão no mercado de trabalho
+- Descrição: Rafael é uma pessoa com deficiência intelectual e está em busca de produtos/serviços que possam auxiliá-lo em sua busca pela inclusão no mercado de trabalho. Ele busca equipamentos adaptados, treinamentos, cursos e serviços de suporte vocacional que o ajudem a adquirir habilidades profissionais e a encontrar oportunidades de emprego que sejam inclusivas e adequadas às suas necessidades.
+
+5. Persona "Esporte Adaptado":
+- Nome: Maria
+- Idade: 22 anos
+- Deficiência: Deficiência física em ambas as pernas
+- Objetivo: Encontrar produtos/serviços que facilitem a prática de esportes adaptados
+- Descrição: Maria é uma jovem com deficiência física nas pernas e tem interesse em praticar esportes adaptados. Ela busca produtos/serviços que facilitem sua participação em atividades esportivas inclusivas, como cadeiras de rodas esportivas, próteses adaptadas, acessórios esportivos adaptados, além de serviços de instrutores/especialistas em esportes adaptados. Maria valoriza fornecedores que ofereçam produtos/serviços de qualidade e apoio para o desenvolvimento de sua participação esportiva adaptada.
 
 ## Histórias de Usuários
 
