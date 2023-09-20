@@ -3,9 +3,9 @@
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
 Ferramentas utilizadas:
-Front-end: HTML, CSS, Bootstrap JavaScript,
-Back-end: 
-Estruturação e organização: Github, Scrum, Figma
+- Front-end: HTML, CSS, Bootstrap JavaScript,
+- Back-end:
+- -Estruturação e organização: Github, Scrum, Figma
 
 ## Personas
 
