@@ -44,14 +44,33 @@ Estruturação e organização: Github, Scrum, Figma
 - Objetivo: Encontrar produtos/serviços que facilitem a prática de esportes adaptados
 - Descrição: Maria é uma jovem com deficiência física nas pernas e tem interesse em praticar esportes adaptados. Ela busca produtos/serviços que facilitem sua participação em atividades esportivas inclusivas, como cadeiras de rodas esportivas, próteses adaptadas, acessórios esportivos adaptados, além de serviços de instrutores/especialistas em esportes adaptados. Maria valoriza fornecedores que ofereçam produtos/serviços de qualidade e apoio para o desenvolvimento de sua participação esportiva adaptada.
 
+6. Persona "Vendedor":
+- Nome: Lucas
+- Idade: 32 anos
+- Objetivo: Encontrar um comprador para seus produtos
+- Descrição: Lucas realizou uma cirurgia na coluna e precisou adquirir adaptadores para realizar suas tarefas diárias, passado o tempo da recuperação da cirurgia, Lucas ficou com seus adaptadores parados sem utilizadade. Agora ele procura meios para conseguir vender e conseguir dinheiro com equipamentos que para ele não tem mais utilidade.
+
+7. Persona "Produtor":
+- Nome: Andréia
+- Idade: 45 anos
+- Objetivo: Conseguir uma renda com seu conhecimento e experiência
+- Descrição: Andréia é formada em engenharia e por toda sua vida cuidou de sua mãe, que possui deficiência física. Alinhando seus conhecimentos de engenharia e sua experiência nos cuidados da sua mãe, Andréia decidiu produzir e criar produtos que ajudariam e facilitariam a vida de pessoas que passam pela mesma situação de sua mãe.
+-  
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Persona Leticia  | Gostaria de adquirir produtos que facilitem a agilizem a minha mobilidade | Para conseguir me lomocomover em meios públicos sem passar por constragimentos  |
+|Persona Thiago   | Quero encontrar produtos que promovam a inclusão digitial | Para conseguir utilizar meus dispositivos tecnologicos de maneira mais adaptada e facilitada |
+|Persona Ana      | Preciso encontrar produtos que me deem praticidade no ambiente doméstico | Para dar segurança a pessoas com deficiências visuais com alarmes de incêndio, detectores de vazamento de gás, adaptadores de campainha |
+|
+|Persona Rafael   | Preciso de meios (serviços, cursos, treinamentos para facilitar minha inclusão no mercado de trabalho |Para ajudar minha inclusão no mercado de trabalho como deficiente intelectual, para conseguir oportunidades de emprego |
+|Persona Lucas |  Preciso de uma plataforma para conseguir um dinheiro vendendo equipamentos que não tem utilidade para mim | Para conseguir me desfazer de produtos que ocupam espaço e conseguir levantar um dinheiro, gostaria de vender meus produtos limpos e em ótimo estado que utilizei para me recuperar da cirurgia |
+|Persona Andréia| Quero algum lugar para encontrar clientes para meu négocio | Para conseguir vender os produtos que produzo, levantando assim uma renda extra, além de ajudar e facilitar a vida de quem procura essas soluções |
+|Persona Maria | Preciso praticar esportes físicos | Para manter minha saúde, preciso me manter exercitada e para isso, preciso de produtos que facilitam a vida esportiva de pessoas que compartilham da mesma experiência que eu |
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
