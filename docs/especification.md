@@ -55,7 +55,7 @@ Estruturação e organização: Github, Scrum, Figma
 - Idade: 45 anos
 - Objetivo: Conseguir uma renda com seu conhecimento e experiência
 - Descrição: Andréia é formada em engenharia e por toda sua vida cuidou de sua mãe, que possui deficiência física. Alinhando seus conhecimentos de engenharia e sua experiência nos cuidados da sua mãe, Andréia decidiu produzir e criar produtos que ajudariam e facilitariam a vida de pessoas que passam pela mesma situação de sua mãe.
--  
+  
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
