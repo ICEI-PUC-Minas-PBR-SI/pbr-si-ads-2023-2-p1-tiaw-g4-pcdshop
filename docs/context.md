@@ -32,37 +32,3 @@ Ajudar pessoas com deficiências diversas a obterem soluções/apoio para seus r
 
 Pessoas com deficiência, que quisessem fazer a compra ou venda de próteses ou equipamentos de auxílio para pcds abrangendo também hospitais que poderiam fazer a venda de tais objetos também como lojas especializadas em atender pessoas com deficiência que poderiam anunciar seus produtos.
 
-1. Persona "Acessibilidade Prioritária":
-- Nome: Letícia
-- Idade: 35 anos
-- Deficiência: Usuária de cadeira de rodas devido a paraplegia
-- Objetivo: Encontrar produtos/serviços que facilitem a sua mobilidade e acessibilidade
-- Descrição: Letícia é uma pessoa com mobilidade reduzida devido a uma lesão na medula espinhal. Ela busca produtos/serviços que priorizem a acessibilidade e que possam facilitar a sua mobilidade, como cadeiras de rodas especiais, rampas portáteis, serviços de adaptação de ambientes, entre outros. Letícia valoriza fornecedores que entendam as necessidades específicas das pessoas com deficiência e ofereçam produtos/serviços de qualidade.
-
-2. Persona "Inclusão Digital":
-- Nome: Tiago
-- Idade: 28 anos
-- Deficiência: Deficiência visual
-- Objetivo: Encontrar produtos/serviços que promovam a inclusão digital
-- Descrição: Tiago é uma pessoa com deficiência visual e valoriza a inclusão digital. Ele busca produtos/serviços que possibilitem o acesso à tecnologia e a dispositivos adaptados para pessoas com deficiência visual, como softwares de leitura de tela, teclados adaptados, smart devices e acessórios tecnológicos. Tiago valoriza fornecedores que ofereçam suporte e orientação para o uso de seus produtos/serviços.
-
-3. Persona "Acessibilidade no Ambiente Doméstico":
-- Nome: Ana
-- Idade: 45 anos
-- Deficiência: Deficiência auditiva
-- Objetivo: Encontrar produtos/serviços que promovam a acessibilidade no ambiente doméstico
-- Descrição: Ana é uma pessoa com deficiência auditiva e está em busca de produtos/serviços que promovam a acessibilidade em sua casa. Ela busca equipamentos e dispositivos adaptados, como sistemas de alerta visual para campainha, alarmes de incêndio com luzes, detectores de vazamento de gás com sinal visual, entre outros. Ana valoriza fornecedores que ofereçam soluções práticas e confiáveis para promover a segurança e acessibilidade em seu lar.
-
-4. Persona "Inclusão no Mercado de Trabalho":
-- Nome: Rafael
-- Idade: 30 anos
-- Deficiência: Deficiência intelectual
-- Objetivo: Encontrar produtos/serviços que facilitem a inclusão no mercado de trabalho
-- Descrição: Rafael é uma pessoa com deficiência intelectual e está em busca de produtos/serviços que possam auxiliá-lo em sua busca pela inclusão no mercado de trabalho. Ele busca equipamentos adaptados, treinamentos, cursos e serviços de suporte vocacional que o ajudem a adquirir habilidades profissionais e a encontrar oportunidades de emprego que sejam inclusivas e adequadas às suas necessidades.
-
-5. Persona "Esporte Adaptado":
-- Nome: Maria
-- Idade: 22 anos
-- Deficiência: Deficiência física em ambas as pernas
-- Objetivo: Encontrar produtos/serviços que facilitem a prática de esportes adaptados
-- Descrição: Maria é uma jovem com deficiência física nas pernas e tem interesse em praticar esportes adaptados. Ela busca produtos/serviços que facilitem sua participação em atividades esportivas inclusivas, como cadeiras de rodas esportivas, próteses adaptadas, acessórios esportivos adaptados, além de serviços de instrutores/especialistas em esportes adaptados. Maria valoriza fornecedores que ofereçam produtos/serviços de qualidade e apoio para o desenvolvimento de sua participação esportiva adaptada.
