@@ -65,7 +65,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Persona Leticia  | Gostaria de adquirir produtos que facilitem a agilizem a minha mobilidade | Para conseguir me lomocomover em meios públicos sem passar por constragimentos  |
 |Persona Thiago   | Quero encontrar produtos que promovam a inclusão digitial | Para conseguir utilizar meus dispositivos tecnologicos de maneira mais adaptada e facilitada |
 |Persona Ana      | Preciso encontrar produtos que me deem praticidade no ambiente doméstico | Para dar segurança a pessoas com deficiências visuais com alarmes de incêndio, detectores de vazamento de gás, adaptadores de campainha |
-|
 |Persona Rafael   | Preciso de meios (serviços, cursos, treinamentos para facilitar minha inclusão no mercado de trabalho |Para ajudar minha inclusão no mercado de trabalho como deficiente intelectual, para conseguir oportunidades de emprego |
 |Persona Lucas |  Preciso de uma plataforma para conseguir um dinheiro vendendo equipamentos que não tem utilidade para mim | Para conseguir me desfazer de produtos que ocupam espaço e conseguir levantar um dinheiro, gostaria de vender meus produtos limpos e em ótimo estado que utilizei para me recuperar da cirurgia |
 |Persona Andréia| Quero algum lugar para encontrar clientes para meu négocio | Para conseguir vender os produtos que produzo, levantando assim uma renda extra, além de ajudar e facilitar a vida de quem procura essas soluções |
