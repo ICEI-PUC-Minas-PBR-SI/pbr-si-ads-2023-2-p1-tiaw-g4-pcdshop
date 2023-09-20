@@ -5,7 +5,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Ferramentas utilizadas:
 - Front-end: HTML, CSS, Bootstrap JavaScript,
 - Back-end:
-- -Estruturação e organização: Github, Scrum, Figma
+- Estruturação e organização: Github, Scrum, Figma
 
 ## Personas
 
