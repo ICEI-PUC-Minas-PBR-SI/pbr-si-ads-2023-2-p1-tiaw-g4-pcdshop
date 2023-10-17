@@ -8,29 +8,37 @@ Toda página terá por padrão um header com menu lateral e rodapé, com o conte
 
 ## Design
 
-A logo se apresentará no header e no footer, utilizamos um estilo simples, um header com menu lateral e rodapé, com o conteúdo no corpo por parágrafos e/ou cards, por exemplo, exibindo os produtos a venda, com botões para avaliá-los, ver e comprar. Já que se trata de um site de venda e compra de itens destinados a pessoas com deficiêmcia, utiliza-se de cores que remetem a medicina e ambientes hospitalares, como branco, vermelho e tons de azul.
+Optamos pela utilização do layout Grid e do flex, variando pela necessidade que cada página pede.
+ logo se apresentará no header e no footer, utilizamos um estilo simples, um header com menu lateral e rodapé, com o conteúdo no corpo por parágrafos e/ou cards, por exemplo, exibindo os produtos a venda, com botões para avaliá-los, ver e comprar. Já que se trata de um site de venda e compra de itens destinados a pessoas com deficiêmcia, utiliza-se de cores que remetem a medicina e ambientes hospitalares, como branco, vermelho e tons de azul.
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g4-pcdshop/assets/125142328/e5875965-cc61-426a-8b07-ff4db4ebc1a3" alt="Layout 1">
+    </td>
+    <td>
+      <img src="https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g4-pcdshop/assets/125142328/b38a744f-dd31-49a9-9f2f-cecf810852dd" alt="Layout 2">
+    </td>
+  </tr>
+</table>
 
 
 ## Cores
 Nas cores, utilizamos essa paleta de cores, se relacionando com o azul e o branco. Já que, nosso site busca melhorar a acessibilidade, e o azul é representado como a cor da acessibilidade.
-![Paletas tiaw](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g4-pcdshop/assets/125142328/db3f8e7c-1ea7-4982-8abd-5151b8a906d3)
+![paleta final tiaw](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g4-pcdshop/assets/125142328/87ae5394-bc3b-4e4b-8aec-91b12cba846f)
+
 #347AFE; #fb0b0b; #808080; Branco e Preto.
 
 ## Tipografia
 
-Título: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-Rótulos: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-Corpo: sans-serif;
+Para o título, usamos: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; por acharmos serem mais chamativas, <p> 
+Nos rótulos: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; <p>
+E no corpo, utilizamos: sans-serif; por acreditarmos ser bem legível e clara. <p>
 
 
 ## Iconografia
 
-Utilizemos ícones fácilmente identificáveis, auto-explicativos. Por exemplo, um ícone de carrinho de compras para ver o seu inventário de compras realizadas, um ícone de engrenagem para a seção de configurações, etc.
+Utilizemos ícones fácilmente identificáveis, auto-explicativos. Por exemplo, um ícone de carrinho de compras para ver o seu inventário de compras realizadas, um ícone de engrenagem para a seção de configurações e etc, assim induzir facilmente ao que o usuário precisa entender e utilizar.
 
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+![icones](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g4-pcdshop/assets/125142328/37963179-0382-498d-9afc-3e578316aab7)
+
+
