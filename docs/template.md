@@ -1,4 +1,4 @@
-![Paletas tiaw](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g4-pcdshop/assets/125142328/db3f8e7c-1ea7-4982-8abd-5151b8a906d3)
+
 # Template padrão do site
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
