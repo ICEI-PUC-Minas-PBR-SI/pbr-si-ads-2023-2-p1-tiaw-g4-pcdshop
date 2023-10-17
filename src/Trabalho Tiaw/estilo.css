@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: #347AFE;
+    color: white;
+}
+main {
+    color: black;
+    margin: 1cm;
+}
+#it1 :hover {
+background-color: gray;
+font-size: x-large;
+align-items: center;
+}
+#it2 :hover {
+    background-color: gray;
+    font-size: x-large;
+    align-items: center;
+}
+#it3 :hover {
+    background-color: gray;
+    font-size: x-large;
+    align-items: center;
+}
+#it4 :hover {
+    background-color: gray;
+    font-size: x-large;
+    align-items: center;
+}
+#footer {
+    background-color: #347AFE;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
