@@ -18,21 +18,20 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 
 ## Wireframes
+Na footer encontramos uma barra de pesquisa para identificar rápido o que o usuário deseja encontrar, juntamente uma guia de acesso rapido ao login, favoritos e a barra lateral.
+Logo depois temos um caroulsel com o AD, mostrando os produtos em destaque ou em promoção.
+Após isso, finalmente mostramos outros produtos anunciados que podem ser recomendados.
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g4-pcdshop/assets/125142328/80ce7b7f-9bf0-4ad4-94fc-b64ad50f6861" alt="Layout 1" width="600" height="400">
+    </td>
+    <td>
+      <img src="https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g4-pcdshop/assets/125142328/37963179-0382-498d-9afc-3e578316aab7" alt="Layout 2" width="600" height="400">
+    </td>
+  </tr>
+</table>
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
-### Exemplo
-
-A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
-
-![Exemplo de Wireframe](img/wireframe-example.png)
 
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
