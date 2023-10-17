@@ -1,31 +1,29 @@
 # Template padrão do site
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+(Se encontra na pasta src)
 
-Explique as guias de estilo utilizadas no seu projeto.
+Toda página terá por padrão um header com menu lateral e rodapé, com o conteúdo no corpo por parágrafos e/ou cards. Como a página princiapal, com um "ad" na parte superior, e logo abaixo os produtos á venda com suas avaliações, podendo também acessar a página para anunciar seu própio produto para postá-lo (caso já tenha criado uma conta).
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+A logo se apresentará no header e no footer, utilizamos um estilo simples, um header com menu lateral e rodapé, com o conteúdo no corpo por parágrafos e/ou cards, por exemplo, exibindo os produtos a venda, com botões para avaliá-los, ver e comprar. Já que se trata de um site de venda e compra de itens destinados a pessoas com deficiêmcia, utiliza-se de cores que remetem a medicina e ambientes hospitalares, como branco, vermelho e tons de azul.
 
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
-
+#347AFE; #fb0b0b; #808080; Branco e Preto.
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+Título: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+Rótulos: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+Corpo: sans-serif;
 
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
+Utilizemos ícones fácilmente identificáveis, auto-explicativos. Por exemplo, um ícone de carrinho de compras para ver o seu inventário de compras realizadas, um ícone de engrenagem para a seção de configurações, etc.
 
 > **Links Úteis**:
 >
