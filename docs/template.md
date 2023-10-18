@@ -30,9 +30,8 @@ Nas cores, utilizamos essa paleta de cores, se relacionando com o azul e o branc
 
 ## Tipografia
 
-Para o título, usamos: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; por acharmos serem mais chamativas, <p> 
-Nos rótulos: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; <p>
-E no corpo, utilizamos: sans-serif; por acreditarmos ser bem legível e clara. <p>
+Para textos chamativos, usamos: "Poetsen one"  <p> 
+E no corpo, utilizamos: inter; por acreditarmos ser bem legível e clara. <p>
 
 
 ## Iconografia
