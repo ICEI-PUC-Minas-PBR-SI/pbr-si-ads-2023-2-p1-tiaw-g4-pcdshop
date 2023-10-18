@@ -1,4 +1,4 @@
-![USERFLOW drawio](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g4-pcdshop/assets/142853324/4d44330a-de79-479c-806c-b9babcc99ab2)
+
 
 # Projeto de Interface
 
