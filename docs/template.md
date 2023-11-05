@@ -24,7 +24,7 @@ Optamos pela utilização do layout Grid e do flex, variando pela necessidade qu
 
 ## Cores
 Nas cores, utilizamos essa paleta de cores, se relacionando com o azul e o branco. Já que, nosso site busca melhorar a acessibilidade, e o azul é representado como a cor da acessibilidade.
-![paleta final tiaw](docs/img/Tema%20de%20Cores.PNG)
+![paleta final tiaw](/docs/img/Tema%20de%20Cores.PNG)
 
 #347AFE; #fb0b0b; #808080; Branco e Preto.
 
