@@ -23,9 +23,8 @@ Optamos pela utilização do layout Grid e do flex, variando pela necessidade qu
 
 
 ## Cores
-Nas cores utilizamos uma paleta de cores voltadas para tons de Azul e Branco, uma vez que, são as cores que representam a acessibilidade. Utilizamos o preto também para ajudar as destacar os textos e não atrapalhar a leitura dos itens do site.
+Nas cores utilizamos uma paleta de cores voltadas para tons de Azul e para o Branco, uma vez que, são as cores que representam a acessibilidade. Utilizamos o preto também para ajudar as destacar os textos e não atrapalhar a leitura dos itens do site.
 (/docs/img/Tema%20de%20Cores.PNG)
-
 
 ## Tipografia
 
