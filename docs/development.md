@@ -14,7 +14,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-002| O sistema deve permitir troca de senha | ALTA | login.html |
 |RF-003| O sistema deve ter área de compras | ALTA | carrinho.html |
 |RF-004| O sistema deve ter área de personalização de perfil | BAIXA | _____ |
-|RF-004| O sistema deve ter área de personalização de perfil | BAIXA | _____ |
+|RF-005| O sistema deve permitir várias formas de pagamento| MEDIA | indexcarrinho.html |
 
 ### Requisitos Não Funcionais
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
@@ -24,7 +24,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RNF-003| O sistema deve permitir troca de senha | ALTA | login.html |
 |RNF-004| O sistema deve ter uma otimização alta para boas respostas | MEDIA | index.html |
 |RNF-005| O sistema deve ter contrastes altos para atingir deficientes visuais | ALTA | index.html |
-
+|RNF-006| O sistema deve ser confiável para registro de cartões | ALTA |indexcarrinho.html|
 
 ## Descrição das estruturas:
 
