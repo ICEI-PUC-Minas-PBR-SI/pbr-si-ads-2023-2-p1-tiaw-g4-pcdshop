@@ -100,7 +100,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-010| Gerar automaticamente um codigo referente a cada novo produto cadastrado | ALTA | |
 |RF-011| A aplicação deverá possuir um processo de compra de produtos incluindo checkout e carrinho | ALTA | |
 |RF-012| O sistema deverá permitir o comprador realizar o cancelamento de uma compra caso esteja adequado ao codigo de defesa do consumidor | ALTA | 
-|RF-013| Deve ser obrigatorio que o usário insira sua dara de nascimento|ALTA|
+|RF-013| Deve ser obrigatorio que o usário insira sua data de nascimento|ALTA|
 
 ### Requisitos não Funcionais
 
