@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/public/criaranunciostyles.css">
+  <title>Patolandia project</title>
+</head>
+
+<body>
+  <header>
+    <!-- Header Menu -->
+    <nav>
+      <ul class="nav-container">
+        <li class="nav-item" id="logo"><a href="#"><img src="/public/icons/logo.png" alt="PCD shop icon" /></a></li>
+        <li class="nav-item">
+          <label class="nav-item-search">
+            <img src="public/icons/search.svg" alt="buscar produtos" />
+            <input placeholder="Buscar produtos" name="search" class="search-input" />
+          </label>
+        </li>
+        <li class="nav-item"> <img class="nav-user-icon" src="/public/icons/user.svg" alt="user"> <span> Olá, faça seu
+            <a class="nav-register-link">login ou cadastre-se</a></span></li>
+        <li class="nav-item">
+          <button name="menu-icon" type="button" class="nav-button">
+            <img src="/public/icons/heart.svg" alt="nav-icon" width="24px">
+          </button>
+
+          <button name="menu-icon" type="button" class="nav-button">
+            <img src="/public/icons/cart.svg" alt="nav-icon" width="24px">
+          </button>
+          <button name="menu-icon" type="button" class="nav-button" id="nav-button">
+            <img src="/public/icons/menu-icon.svg" alt="nav-icon" width="24px">
+          </button>
+
+        </li>
+      </ul>
+    </nav>
+    <aside class="menu">
+      <ul class="menu-container">
+        <li class="menu-item"><a href="#">Home</a></li>
+        <li class="menu-item"><a href="#">Produtos</a></li>
+        <li class="menu-item"><a href="#">Sobre</a></li>
+        <li class="menu-item"><a href="#">Contato</a></li>
+      </ul>
+    </aside>
+  </header>
+  <main class="main">
+    <section id="announcements">
+      <header class="announcement-header">
+        <h2 class="header-header-title">
+          Cadastro e edição de anúncios
+        </h2>
+        <button class="announcement-item-button status-selling" id="register-announcement-button"
+          aria-controls="register-announcement-dialog"> Cadastrar</button>
+      </header>
+      <div class="announcement-container">
+        <div class="announcement-item-container">
+          <span class="announcement-item-status status-announced"> Anunciado</span>
+          <img class="announcement-item-image" src="public/images/product-1.png" alt="announcement-image-1">
+          <h3 class="announcement-item-title">Produto 1</h3>
+          <div class="announcement-item-price-container">
+            <span class="announcement-item-price">R$ 80,00</span>
+          </div>
+          <p class="announcement-item-description">Descrição do produto 1 Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Ea enim a aliquid, optio aspernatur cum ipsum provident qui fugit culpa ipsa quos delectus
+            accusamus saepe cupiditate repellat voluptatibus necessitatibus nobis?</p>
+          <div class="announcement-item-buttons-container">
+            <button class="announcement-item-button remove-button">Remover</button>
+            <button class="announcement-item-button edit-button">Editar</button>
+          </div>
+
+        </div>
+        <div class="announcement-item-container">
+          <span class="announcement-item-status status-selling"> Vendido</span>
+          <img class="announcement-item-image" src="public/images/product-2.png" alt="announcement-image-1">
+          <h3 class="announcement-item-title">Produto 1</h3>
+          <div class="announcement-item-price-container">
+            <span class="announcement-item-price">R$ 100,00</span>
+          </div>
+          <p class="announcement-item-description">Descrição do produto 2 Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Ea enim a aliquid, optio aspernatur cum ipsum provident qui fugit culpa ipsa quos delectus
+            accusamus saepe cupiditate repellat voluptatibus necessitatibus nobis?</p>
+          <div class="announcement-item-buttons-container">
+            <button class="announcement-item-button remove-button">Remover</button>
+            <button class="announcement-item-button edit-button">Editar</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <dialog id="register-announcement-dialog" class="dialog">
+    <h3>Cadastro de produtos</h3>
+    <form>
+      <div class="form-container">
+        <label for="product-name">Nome do produto</label>
+        <input type="text" name="product-name" id="product-name" placeholder="Nome do produto" required>
+        <label for="product-image">Imagem do produto</label>
+        <input type="file" name="product-image" id="product-image" placeholder="Imagem" accept="image/png" required>
+        <label for="product-image">Preço do produto</label>
+        <input type="number" name="product-image" id="product-image" placeholder="preço do produto" accept="image/png"
+          required>
+      </div>
+      <div class="announcement-item-buttons-container">
+        <button class="announcement-item-button " id="announcement-close-button" autofocus>Cancelar</button>
+        <button class="announcement-item-button edit-button" id="announcement-close-button" autofocus>Cadastrar
+          Anúncio</button>
+      </div>
+    </form>
+  </dialog>
+  <footer class="border-top border-danger" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <img src="public/icons/logo.png" alt="Logo" id="SHOP" width="95px" height="95px">
+        </div>
+        <div class="col-3">
+          <ul>
+            <li>
+              <a>
+                <h3>Informativo</h3>
+              </a>
+            </li>
+            <li>
+              <a>
+                <h4>Política de privacidade</h4>
+              </a>
+            </li>
+            <li>
+              <a>
+                <h4>Dúvidas frequentes</h4>
+              </a>
+            </li>
+          </ul>
+          <!-- <h4>Informativo</h4>
+          Política de privacidade <br>
+          Dúvidas frequentes -->
+        </div>
+        <div class="col-3">
+          <h3>Suporte ao consumidor</h3>
+          Email: ----------- <br>
+          Telefone: xxxx xxxx-xxxx
+        </div>
+        <div class="col-3 mx-auto text-center align-items-center">
+          <h3>Métodos de pagamento</h3>
+          <button class="footer-payment-button">
+            <img src="public/icons/pix_icon_.png" alt="pix" width="50px" height="50px">
+          </button>
+          <button class="footer-payment-button">
+            <img src="public/icons/card_icon.png" alt="cartao de credito" width="50px" height="50px">
+          </button>
+          <button class="footer-payment-button">
+            <img src="public/icons/boleto_icon.png" width="50px" height="50px" alt="boleto">
+          </button>
+        </div>
+      </div>
+      <div class="row-cols-12 text-center copyright">
+        © Copyright PUC Minas 2023 - Minas Gerais (...)
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="scripts/menu.js"></script>
+</body>
+
+</html>
