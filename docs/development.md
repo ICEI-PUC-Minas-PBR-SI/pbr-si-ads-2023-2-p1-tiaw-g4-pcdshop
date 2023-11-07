@@ -28,7 +28,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
 |RF-001| O sistema deve permitir a criação de contas | ALTA | login.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|RF-002| O sistema deve permitir troca de senha | ALTA | login.html |
+|RF-003| O sistema deve permitir troca de senha | ALTA | login.html |
 
 ## Descrição das estruturas:
 
