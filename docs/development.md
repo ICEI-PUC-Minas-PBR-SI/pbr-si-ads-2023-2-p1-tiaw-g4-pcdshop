@@ -15,6 +15,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-003| O sistema deve ter área de compras | ALTA | carrinho.html |
 |RF-004| O sistema deve ter área de personalização de perfil | BAIXA | _____ |
 |RF-005| O sistema deve permitir várias formas de pagamento| MEDIA | indexcarrinho.html |
+|RF-014| O Sistema deverá ter uma tela de descrição do item que leva pro carrinho ao clicar em comprar | ALTA |teladoitem.html|
 
 ### Requisitos Não Funcionais
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
