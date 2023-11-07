@@ -2,23 +2,6 @@
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo.
-
-O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utilizados como referência:
-- Login do sistema: [https://repl.it/@rommelpuc/LoginApp](https://repl.it/@rommelpuc/LoginApp) 
-- Cadastro de Contatos: [https://repl.it/@rommelpuc/Cadastro-de-Contatos](https://repl.it/@rommelpuc/Cadastro-de-Contatos)
-
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
-## Exemplo
-
 ## Requisitos Atendidos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
@@ -27,8 +10,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|RF-001| O sistema deve permitir a criação de contas | ALTA | login.html |
+|RF-002| O sistema deve permitir troca de senha | ALTA | login.html |
+|RF-003| O sistema deve ter área de compras | ALTA | carrinho.html |
+|RF-004| O sistema deve ter área de personalização de perfil | BAIXA | _____ |
+|RF-005| O sistema deve permitir várias formas de pagamento| MEDIA | indexcarrinho.html |
+
+### Requisitos Não Funcionais
+|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
+|------|------------------------|------------|-----------------|
+|RNF-001| O sistema deve permitir apenas uma conta por e-mail | ALTA | login.html |
+|RNF-002| O sistema deve ser responsivo quanto a telas de smartphones | MEDIA | index.html|
+|RNF-003| O sistema deve permitir troca de senha | ALTA | login.html |
+|RNF-004| O sistema deve ter uma otimização alta para boas respostas | MEDIA | index.html |
+|RNF-005| O sistema deve ter contrastes altos para atingir deficientes visuais | ALTA | index.html |
+|RNF-006| O sistema deve ser confiável para registro de cartões | ALTA |indexcarrinho.html|
 
 ## Descrição das estruturas:
 

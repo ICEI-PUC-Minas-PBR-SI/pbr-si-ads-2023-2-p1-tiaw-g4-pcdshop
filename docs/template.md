@@ -23,10 +23,15 @@ Optamos pela utilização do layout Grid e do flex, variando pela necessidade qu
 
 
 ## Cores
+<<<<<<< HEAD
 Nas cores, utilizamos essa paleta de cores, se relacionando com o azul e o branco. Já que, nosso site busca melhorar a acessibilidade, e o azul é representado como a cor da acessibilidade.
 ![paleta final tiaw](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-ads-2023-2-p1-tiaw-g4-pcdshop/assets/125142328/87ae5394-bc3b-4e4b-8aec-91b12cba846f)
 
 ![paleta final tiaw](docs/img/Tema%20de%20Cores.PNG)
+=======
+Nas cores utilizamos uma paleta de cores voltadas para tons de Azul e para o Branco, uma vez que, são as cores que representam a acessibilidade. Utilizamos o preto também para ajudar as destacar os textos e não atrapalhar a leitura dos itens do site.
+<img src="/docs/img/Tema de Cores.PNG">
+>>>>>>> 1f4d6f82b5303dd0ff1e8f4c80d8dade4d96574c
 
 ## Tipografia
 
