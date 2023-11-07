@@ -2,10 +2,6 @@
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo.
-
-## Exemplo
-
 ## Requisitos Atendidos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
@@ -16,7 +12,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |------|------------------------|------------|-----------------|
 |RF-001| O sistema deve permitir a criação de contas | ALTA | login.html |
 |RF-002| O sistema deve permitir troca de senha | ALTA | login.html |
-|RF-003| O sistema deve permitir troca de senha | ALTA | login.html |
+|RF-003| O sistema deve ter área de compras | ALTA | carrinho.html |
+|RF-004| O sistema deve ter área de personalização de perfil | BAIXA | _____ |
+|RF-004| O sistema deve ter área de personalização de perfil | BAIXA | _____ |
 
 ### Requisitos Não Funcionais
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
@@ -24,6 +22,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RNF-001| O sistema deve permitir apenas uma conta por e-mail | ALTA | login.html |
 |RNF-002| O sistema deve ser responsivo quanto a telas de smartphones | MEDIA | index.html|
 |RNF-003| O sistema deve permitir troca de senha | ALTA | login.html |
+|RNF-004| O sistema deve ter uma otimização alta para boas respostas | MEDIA | index.html |
+|RNF-005| O sistema deve ter contrastes altos para atingir deficientes visuais | ALTA | index.html |
+
 
 ## Descrição das estruturas:
 
