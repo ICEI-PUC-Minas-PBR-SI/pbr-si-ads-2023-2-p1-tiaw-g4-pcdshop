@@ -203,6 +203,17 @@ align-items: center;
   left: 12px;
   color: gray;
 }
+@media (max-width: 1250px) {
+  .Preço {
+    flex-direction: column; /* Coloca os elementos em coluna */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+  }
+
+  .opacidade-texto {
+    margin-left: 0; /* Remove o recuo à direita */
+    margin-top: 10px; /* Adiciona espaço acima */
+  }
+}
 
 
 
