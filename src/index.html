@@ -31,36 +31,65 @@
                 <img src="imagens/free-heart-icon-3510-thumb.png" width="32px" height="32px"> &nbsp; <a href="indexcarrinho.html"><img src="imagens/shopping-cart-icon.png" width="31px" height="31px"></a>
               </div>
               </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title text-danger" id="offcanvasNavbarLabel">MENU</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body border border-top-0 border-danger" id="offcanvas">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-5">
-                    <li class="nav-item" id="it">
-                      <a class="nav-link active" aria-current="page" href="config.html"><img src="imagens/perfil.png" width="30px" height="30px"> Perfil</a>
-                    </li>
-                    <li class="nav-item" id="it">
-                     <a class="nav-link active" aria-current="page" href="#"><img src="imagens/free-heart-icon-3510-thumb.png" width="30px" height="30px"> Lista de Desejos</a>
-                    </li>
-                    <li class="nav-item" id="it">
-                      <a class="nav-link active" aria-current="page" href="#"><img src="imagens/shopping-cart-icon.png" width="30px" height="30px"> Compras</a>
-                    </li>
-                    <li class="nav-item" id="it">
-                      <a class="nav-link active" aria-current="page" href="#"><img src="imagens/sell-out.png" width="30px" height="30px"> Vendas</a>
-                    </li>
-                    <li class="nav-item" id="it">
-                      <a class="nav-link active" aria-current="page" href="#"><img src="imagens/bell-icon.png" width="30px" height="30px"> Notificações</a>
-                    </li>
-                    <li class="nav-item" id="it">
-                      <a class="nav-link active" aria-current="page" href="config.html"><img src="imagens/gear_icon.png" width="30px" height="30px"> Configurações</a>
-                    </li>
-                  </ul>
-            </div>
+
+
+<button class="navbar-toggler end-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+        aria-label="Toggle navigation">
+        <span><img src="img/menu_icon.png"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end container-fluid w-auto" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-black text-danger" id="offcanvasDarkNavbarLabel">
+                <span style="color:#2405f2;">MENU</span>
+            </h5>
+            <button type="submit" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mx-0.25">
+                <li class="nav-item border-bottom border-2 border-black">
+                    <a class="nav-link" href="#">
+                        <span class="fw-bold fs-5 text-black"> <img src="img/perfil_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"> MEU PERFIL</span>
+                    </a>
+                </li>
+                <li class="nav-item pt-4">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <span class="fw-bold fs-5 text-black"> <img src="img/carrinho_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"> MEU CARRINHO</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span class="fw-bold fs-5 text-black"> <img src="img/compras_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"> COMPRAS/VENDAS</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span class="fw-bold fs-5 text-black"> <img src="img/chat_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"> CHAT</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span class="fw-bold fs-5 text-black"> <img src="img/config_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"> CONFIGURAÇÕES</span>
+                    </a>
+                </li>
+
+                <li class="nav-item position-absolute bottom-0">
+                    <a class="nav-link" href="#">
+                        <span class="fw-bold fs-5 text-black"> <img src="img/logout_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"> LOG OUT</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
             
           </nav>
     </header>
