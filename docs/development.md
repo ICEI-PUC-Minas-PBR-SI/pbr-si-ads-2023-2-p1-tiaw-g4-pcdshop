@@ -10,21 +10,29 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve permitir a criação de contas | ALTA | login.html |
-|RF-002| O sistema deve permitir troca de senha | ALTA | login.html |
-|RF-003| O sistema deve ter área de compras | ALTA | carrinho.html |
-|RF-004| O sistema deve ter área de personalização de perfil | BAIXA | _____ |
-|RF-005| O sistema deve permitir várias formas de pagamento| MEDIA | indexcarrinho.html |
-|RF-014| O Sistema deverá ter uma tela de descrição do item que leva pro carrinho ao clicar em comprar | ALTA |teladoitem.html|
-|RF-006| O Sistema deverá ter um sistema de avaliação de produto e perfil | MEDIA |teladoitem.html|
+|RF-001| Permitir cadastros de novos usuários | ALTA | login.html |
+|RF-002| Permitir login na conta   | ALTA | perfil.html |
+|RF-003| O Sistema poderá oferecer rastreio de produto | ALTA | vendas.html |
+|RF-004| O Sistema deverá ter um sistema de avaliação de produto e perfil | MEDIA | teladoitem.html |
+|RF-005| O Sistema deverá oferecer suporte ao comprador | MEDIA | suporte.html |
+|RF-006| Permitir a edição e exclusão de usuários no sistema | MEDIA | config.html | 
+|RF-007| O sistema deverá gerar automaticamente um codigo único para cada novo usuário | ALTA | login.html |
+|RF-008| Exibir uma mensagem caso o novo usuário tente cadastrar uma conta com um usuário ou email que já esteja cadastrado | ALTA | login.html|
+|RF-009| O vendedor poderá criar cadastro, anunciar, editar e excluir produtos | ALTA | criaranuncio.html|
+|RF-010| Gerar automaticamente um codigo referente a cada novo produto cadastrado | ALTA |criaranuncio.html |
+|RF-011| A aplicação deverá possuir um processo de compra de produtos incluindo checkout e carrinho | ALTA |indexcarrinho.html |
+|RF-012| O sistema deverá permitir o comprador realizar o cancelamento de uma compra caso esteja adequado ao codigo de defesa do consumidor | ALTA | vendas.html | 
+|RF-013| Deve ser obrigatorio que o usário insira sua data de nascimento|ALTA| login.html | 
+|RF-014| O Sistema deverá ter uma tela de descrição do item que leva pro carrinho ao clicar em comprar | ALTA | teladoitem.html|
+
 
 ### Requisitos Não Funcionais
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
 |RNF-001| O sistema deve permitir apenas uma conta por e-mail | ALTA | login.html |
-|RNF-002| O sistema deve ser responsivo quanto a telas de smartphones | MEDIA | index.html|
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | tela_inicial.html | 
 |RNF-003| O sistema deve permitir troca de senha | ALTA | login.html |
-|RNF-004| O sistema deve ter uma otimização alta para boas respostas | MEDIA | index.html |
+|RNF-004| Deve aceitar diversos meios de pagamento|ALTA| indexcarrinho.html |
 |RNF-005| O sistema deve ter contrastes altos para atingir deficientes visuais | ALTA | index.html |
 |RNF-006| O sistema deve ser confiável para registro de cartões | ALTA |indexcarrinho.html|
 
