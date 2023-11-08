@@ -1,0 +1,25 @@
+#menu
+{
+    background-color: #337aff;
+}
+
+#offcanvasDarkNavbar
+{
+    background-color: #FFFFFF;
+    border: black;
+}
+
+body
+{
+    font-family: Poetsen one;
+}
+
+.nav-item :hover
+{
+    background-color: #d4d4d4;
+}
+
+.titulo
+{
+    color: #337aff;
+}
