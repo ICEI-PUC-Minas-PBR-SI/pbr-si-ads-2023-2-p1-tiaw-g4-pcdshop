@@ -11,7 +11,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
 |RF-001| Permitir cadastros de novos usuários | ALTA | login.html |
-|RF-002| Permitir login na conta   | ALTA | perfil.html |
+|RF-002| Permitir login na conta   | ALTA | login.html |
 |RF-003| O Sistema poderá oferecer rastreio de produto | ALTA | vendas.html |
 |RF-004| O Sistema deverá ter um sistema de avaliação de produto e perfil | MEDIA | teladoitem.html |
 |RF-005| O Sistema deverá oferecer suporte ao comprador | MEDIA | suporte.html |
