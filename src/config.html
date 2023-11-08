@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet"  type="text/css" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>PCD SHOP.</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <header class="border-bottom border-danger" id="header">
+        <nav class="navbar">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="imagens/PCD.png" alt="Logo" id="SHOP" width="95px" height="95px">
+              </a>
+              <form class="d-flex w-25" role="search">
+                <div class="input-group">
+                <span class="input-group-text">🔎︎</span>
+                <input class="form-control" type="search" placeholder="BUSCAR PRODUTOS" aria-label="Search">
+                </div>
+              </form>
+              <div class="row">
+              <div class="col fs-5">
+                <a href="login.html"><img src="imagens/perfil.png" width="34px" height="34px"></a> Nome Do Usuário
+              </div>
+              </div>
+              <div class="row">
+              <div class="col">
+                <img src="imagens/free-heart-icon-3510-thumb.png" width="32px" height="32px"> &nbsp; <img src="imagens/shopping-cart-icon.png" width="31px" height="31px">
+              </div>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title text-danger" id="offcanvasNavbarLabel">MENU</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body border border-top-0 border-danger" id="offcanvas">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-5">
+                    <li class="nav-item" id="it">
+                      <a class="nav-link active" aria-current="page" href="#"><img src="imagens/perfil.png" width="30px" height="30px"> Perfil</a>
+                    </li>
+                    <li class="nav-item" id="it">
+                     <a class="nav-link active" aria-current="page" href="#"><img src="imagens/free-heart-icon-3510-thumb.png" width="30px" height="30px"> Lista de Desejos</a>
+                    </li>
+                    <li class="nav-item" id="it">
+                      <a class="nav-link active" aria-current="page" href="#"><img src="imagens/shopping-cart-icon.png" width="30px" height="30px"> Compras</a>
+                    </li>
+                    <li class="nav-item" id="it">
+                      <a class="nav-link active" aria-current="page" href="#"><img src="imagens/sell-out.png" width="30px" height="30px"> Vendas</a>
+                    </li>
+                    <li class="nav-item" id="it">
+                      <a class="nav-link active" aria-current="page" href="#"><img src="imagens/bell-icon.png" width="30px" height="30px"> Notificações</a>
+                    </li>
+                    <li class="nav-item" id="it">
+                      <a class="nav-link active" aria-current="page" href="#"><img src="imagens/gear_icon.png" width="30px" height="30px"> Configurações</a>
+                    </li>
+                  </ul>
+            </div>
+            
+          </nav>
+    </header>
+    <main id="conta">
+        <div id="user" class="text-center">
+            <img src="imagens/perfil.png" id="perfil" width="150px" height="150px" class="rounded mx-auto d-block">
+            <b>(NOME DE USUÁRIO)</b> <br>
+        </div>
+        <div class="text-center fs-5">
+            <b>Informações pessoais</b><br>
+            Email: <textarea name="email" rows="1" cols="30"> (e-mail do usuário)</textarea><br>
+            Endereço: <textarea name="address" rows="1" cols="30"> (localização do usuário)</textarea><br>
+            Nº de telefone: <textarea name="phone-number" rows="1" cols="30"> (contato do usuário)</textarea><br>
+            Financeiro: <img src="imagens/card_icon.png" width="45px" height="45px"> (cartão cadastrado)<br>
+            <div class="form-group">
+              <button type="button" class="ForgetPwd p-0 m-0 fs-5 btn btn-link btn-light p-2 text-decoration-none text-black" data-bs-toggle="modal" data-bs-target="#mudarSenha">
+                  Trocar a senha
+              </button>
+              </div>
+             <div class="modal fade" id="mudarSenha" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                  <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                      <h2 class="modal-title fs-5" id="exampleModalLabel1">Troca de Senha</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div>
+                              Confirme seus dados para progredir.
+                          </div>
+                              <form>
+                                  <div class="mb-3">
+                                  <label for="password-change" class="col-form-label">Seu email:</label>
+                                  <input type="text" class="form-control" id="password-change">
+                                  </div>
+                                  <div class="mb-3">
+                                  <label for="phone-number" class="col-form-label">Número de tel.:</label>
+                                  <input type="text" class="form-control" id="phone-numbr">
+                                  </div>
+                                  <div class="mb-3">
+                                  <label for="password-old" class="col-form-label">Senha atual:</label>
+                                  <input type="text" class="form-control" id="password-old">
+                                  </div>
+                                  <div class="mb-3">
+                                  <label for="password-new" class="col-form-label">Nova senha:</label>
+                                  <input type="text" class="form-control" id="password-new">
+                                  </div>
+                                  <div class="mb-3">
+                                  <button type="button" class="btn btn-primary">Alterar senha</button>
+                                  </div>
+                              </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                      </div>
+                  </div>
+                </div> 
+        </div>
+        <div class="text-center fs-5">
+            <a href="#" class="text-decoration-none text-black">Histórco de compras</a><br>
+        </div>
+        <div class="fs-4">
+          <a href="#"><img src="imagens/delete_icon.png" width="30px" height="30px"></a><button type="button" class="btn btn-danger">Excluir Conta</button><br><br>
+          <a href="index.html"><img src="imagens/exit_icon.png" width="30px" height="30px"></a><button type="button" class="btn btn-light"><a class="text-decoration-none" href="index.html">Sair</a></button>
+        </div>
+    </main>
+</body>
+<footer class="border-top border-danger" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <img src="imagens/PCD.png" alt="Logo" id="SHOP" width="95px" height="95px">
+        </div>
+        <div class="col-3">
+          <h4>Informativo</h4>
+          Política de privacidade <br>
+          Dúvidas frequentes
+        </div>
+        <div class="col-3">
+          <h4>Suporte ao consumidor</h4>
+          Email: ----------- <br>
+          Telefone: xxxx xxxx-xxxx
+        </div>
+        <div class="col-3 mx-auto text-center align-items-center">
+          <h5>Métodos de pagamento</h5>
+          <img src="imagens/pix_icon_.png" width="50px" height="50px"> &nbsp; <img src="imagens/card_icon.png" width="50px" height="50px"> &nbsp; <img src="imagens/boleto_icon.png" width="50px" height="50px">
+        </div>
+      </div>
+      <div class="row-cols-12 text-center">
+        © Copyright PUC Minas 2023 - Minas Gerais (...)
+      </div>
+    </div>
+</footer>
+</html>
