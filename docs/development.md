@@ -39,36 +39,37 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Descrição das estruturas:
 Relatório de Estrutura de Código
 
-Introdução
+| Introdução |
 
-Este relatório aborda a estrutura de código do nosso projeto, um site responsivo que serve como um marketplace para pessoas com deficiência. O projeto utiliza HTML e CSS.
+| Este | relatório | aborda | a | estrutura | de | código | do | nosso | projeto, | um | site | responsivo | que | serve | como | um | marketplace | para | pessoas | com | deficiência. | O | projeto | utiliza | HTML | e | CSS. |
 
-Acessibilidade
+| Acessibilidade |
 
-A acessibilidade é uma prioridade em nosso projeto. Utilizamos atributos ARIA para melhorar a acessibilidade. Por exemplo, aria-label, aria-labelledby e aria-describedby são usados para fornecer descrições textuais para elementos que de outra forma não teriam um nome acessível ou descrição.
+| A | acessibilidade | é | uma | prioridade | em | nosso | projeto. | Utilizamos | atributos | ARIA | para | melhorar | a | acessibilidade. | Por | exemplo, | aria-label, | aria-labelledby | e | aria-describedby | são | usados | para | fornecer | descrições | textuais | para | elementos | que | de | outra | forma | não | teriam | um | nome | acessível | ou | descrição. |
 
-Semântica
+| Semântica |
 
-Utilizamos elementos HTML semânticos sempre que possível. Isso não só ajuda na acessibilidade, mas também melhora a SEO do nosso site. Por exemplo, usamos a tag <nav> para a barra de navegação, <main> para o conteúdo principal, <header> e <footer> para o cabeçalho e rodapé do site, respectivamente.
+| Utilizamos | elementos | HTML | semânticos | sempre | que | possível. | Isso | não | só | ajuda | na | acessibilidade, | mas | também | melhora | a | SEO | do | nosso | site. | Por | exemplo, | usamos | a | tag | <nav> | para | a | barra | de | navegação, | <main> | para | o | conteúdo | principal, | <header> | e | <footer> | para | o | cabeçalho | e | rodapé | do | site, | respectivamente. |
 
-CSS
+| CSS |
 
-Nosso CSS é organizado e modular. Utilizamos uma metodologia como BEM ou SMACSS para nomear nossas classes. Isso torna nosso código mais legível e fácil de manter.
+| Nosso | CSS | é | organizado | e | modular. | Utilizamos | uma | metodologia | como | BEM | ou | SMACSS | para | nomear | nossas | classes. | Isso | torna | nosso | código | mais | legível | e | fácil | de | manter. |
 
-Responsividade
-Nosso site é responsivo e funciona bem em todos os dispositivos. Usamos consultas de mídia para ajustar o layout dependendo do tamanho da tela.
+| Responsividade |
 
-Contraste de Cores
+| Nosso | site | é | responsivo | e | funciona | bem | em | todos | os | dispositivos. | Usamos | consultas | de | mídia | para | ajustar | o | layout | dependendo | do | tamanho | da | tela. |
 
-As cores que escolhemos têm contraste suficiente para que pessoas com deficiência visual possam ler o conteúdo facilmente.
+| Contraste de Cores |
 
-Formulários
+| As | cores | que | escolhemos | têm | contraste | suficiente | para | que | pessoas | com | deficiência | visual | possam | ler | o | conteúdo | facilmente. |
 
-Para formulários, garantimos que cada campo de entrada tem uma etiqueta associada. Isso ajuda as tecnologias assistivas a entender o que cada campo de entrada faz.
+| Formulários |
 
-Conclusão
+| Para | formulários, | garantimos | que | cada | campo | de | entrada | tem | uma | etiqueta | associada. | Isso | ajuda | as | tecnologias | assistivas | a | entender | o | que | cada | campo | de | entrada | faz. |
 
-Nosso projeto é um site responsivo que serve como um marketplace para pessoas com deficiência. Através do uso de HTML e CSS, criamos um site que é acessível, semântico, organizado, responsivo e visualmente agradável.
+| Conclusão |
+
+| Nosso | projeto | é | um | site | responsivo | que | serve | como | um | marketplace | para | pessoas | com | deficiência. | Através | do | uso | de | HTML | e | CSS, | criamos | um | site | que | é | acessível, | semântico, | organizado, | responsivo | e | visualmente | agradável. |
 
 ## Notícia
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
