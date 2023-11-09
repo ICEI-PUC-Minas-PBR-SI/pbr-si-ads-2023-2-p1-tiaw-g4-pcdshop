@@ -62,11 +62,14 @@ As cores que escolhemos têm contraste suficiente para que pessoas com deficiên
 Formulários
 Para formulários, garantimos que cada campo de entrada tem uma etiqueta associada. Isso ajuda as tecnologias assistivas a entender o que cada campo de entrada faz.
 
-## Notícia
+## Tela de Login
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
-
+| Login          | String            | Email para efetuar o cadastro             | miguelbarbosa@gmail.com                        |
+| Senha          | String            | Identificador unico para o login          | Senhaindecifravel                              |
+| Recuperar senha| Texto             | Recuperar senha.                          | Senhaindecifravel.                             |
+                              
+## Tela Inicial
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Busca          | String            | Buscar pelo produto necessário            | miguelbarbosa@gmail.com                    
