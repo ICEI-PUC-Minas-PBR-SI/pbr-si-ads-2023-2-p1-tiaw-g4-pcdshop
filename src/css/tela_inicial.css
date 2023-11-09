@@ -25,7 +25,9 @@ body
     color: #337aff;
 }
 
-footer
-{
-    background-color: #337aff;
+#footer {
+    background-color: #347AFE;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
