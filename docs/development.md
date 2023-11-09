@@ -29,7 +29,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     | Descrição do Requisito  |Prioridade | Responsavel |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | todas telas | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | todas telas |
