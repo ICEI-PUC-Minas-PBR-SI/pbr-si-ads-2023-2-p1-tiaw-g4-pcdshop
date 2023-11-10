@@ -24,6 +24,6 @@ Ligação entre as páginas
 Sisebar
 Tela_Inicial
 
-## Arthur Freitas 
+## Artur Freitas 
 
 ## Matheus
