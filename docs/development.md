@@ -1,8 +1,5 @@
 # Programação de Funcionalidades
 
-RF-001 | https://replit.com/@samupesb/login#index.html |
-RF-005 | https://replit.com/@samupesb/suporte#style.css |
-RF-009 | https://replit.com/@samupesb/criar#style.css |
 
 ## Requisitos Atendidos
 
@@ -39,28 +36,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RNF-006| O sistema deve manter todos os cadastros de produtos em um banco de dados|MEDIA| vendas.html |
 
 ## Descrição das estruturas:
-Relatório de Estrutura de Código
-Relatório de Estrutura de Código
-Introdução
-Este relatório aborda a estrutura de código do nosso projeto, um site responsivo que serve como um marketplace para pessoas com deficiência. O projeto utiliza HTML e CSS.
 
-Acessibilidade
-A acessibilidade é uma prioridade em nosso projeto. Utilizamos atributos ARIA para melhorar a acessibilidade. Por exemplo, aria-label, aria-labelledby e aria-describedby são usados para fornecer descrições textuais para elementos que de outra forma não teriam um nome acessível ou descrição.
-
-Semântica
-Utilizamos elementos HTML semânticos sempre que possível. Isso não só ajuda na acessibilidade, mas também melhora a SEO do nosso site. Por exemplo, usamos a tag <nav> para a barra de navegação, <main> para o conteúdo principal, <header> e <footer> para o cabeçalho e rodapé do site, respectivamente.
-
-CSS
-Nosso CSS é organizado e modular. Utilizamos uma metodologia como BEM ou SMACSS para nomear nossas classes. Isso torna nosso código mais legível e fácil de manter.
-
-Responsividade
-Nosso site é responsivo e funciona bem em todos os dispositivos. Usamos consultas de mídia para ajustar o layout dependendo do tamanho da tela.
-
-Contraste de Cores
-As cores que escolhemos têm contraste suficiente para que pessoas com deficiência visual possam ler o conteúdo facilmente.
-
-Formulários
-Para formulários, garantimos que cada campo de entrada tem uma etiqueta associada. Isso ajuda as tecnologias assistivas a entender o que cada campo de entrada faz.
 
 ## Tela de Login
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
