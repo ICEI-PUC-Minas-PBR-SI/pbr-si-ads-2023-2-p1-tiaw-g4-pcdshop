@@ -5,26 +5,27 @@ Página de Login |
 Página de perfil/configurações |
 Correções e organização do código |
 
-## Miguel Araújo Barbosa |
+## Miguel Araújo Barbosa 
 Tela do Carrinho |
 Development |
 ATA |
 
-## Arthur Antunes Mendes de Barcelos |
+## Arthur Antunes Mendes de Barcelos 
 Tela do item |
 
-## Samuel Thiago |
+## Samuel Thiago 
 Tela de histórico compra e vendas |
 Tela de suporte |
 Tela de favoritos |
 Descrição de requisitos |
 Ligação entre as páginas |
 
-## Luis Felipe Marques |
+## Luis Felipe Marques 
 Sisebar |
 Tela_Inicial |
 
-## Artur Freitas |
-Tela de Edição |
+## Artur Freitas 
+Tela de Edição 
 
-## Matheus |
+## Mateus Guimarães Figueiredo Ferreira de Souza 
+Tela de vendas
