@@ -25,7 +25,7 @@ Sisebar |
 Tela_Inicial |
 
 ## Artur Freitas 
-Tela de Edição 
+Tela de Criação de item 
 
 ## Mateus Guimarães Figueiredo Ferreira de Souza 
 Tela de vendas
