@@ -72,4 +72,39 @@ Para formulários, garantimos que cada campo de entrada tem uma etiqueta associa
 ## Tela Inicial
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Busca          | String            | Buscar pelo produto necessário            | miguelbarbosa@gmail.com                    
+| Busca          | String            | Buscar pelo produto necessário            | miguelbarbosa@gmail.com                        |
+| Perfil         | String            | Abrir a conta pessoal                     | *****                                          |
+|Comprar         | String            | Abrir a tela do produto                   | Bola adaptável                                 |
+| Favoritos      | String            | Acessar seus produtos favoritos           | Salvar um produto para a compra posterior      |
+
+## Tela do Carrinho
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Comprar        | String            | Efetuar a compra                          | Total: xxx  Comprar produto                    |
+
+## Tela do Produto
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Comprar        | String            | Efetuar a compra                          | Total: xxx  Comprar produto                    |
+
+## Tela do Vendedor
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Criar anúncio  | String            | Criar anúncio                             | Criar um anúncio do próprio vendedor           |
+| Remover anúncio| String            | Remover anúncio desejado                  | Criar um anúncio do próprio vendedor           |
+|Editar anúncio  | String            | Editar as informações do anúncio          | Atualizar preço                                |  
+
+## Tela do Fale Conosco
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Chat           | String            | Resolver problemas ou acessar informações | Chat para tirar dúvida sobre pagamentos        |
+                   
+
+
+
+
+
+
+
+
+
