@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: #347AFE;
+    color: white;
+}
+main {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: gainsboro;
+    color: #347AFE;
+}
+.container {
+    position: relative;
+}
+.form-container{
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.principal {
+    width: 60%; 
+    margin-left: 300px;
+  }
+  .texto{
+    margin-left: 299px;
+  }
+  .btn.btn-primary.btn-lg {
+margin-left: 10px;
+width: 130px;
+margin-top: -15px;
+  }
+  .label2{
+    margin-top: -10px;
+  }
+@media (max-width:786px) {
+    .texto{
+        margin-left: 99px;
+    }
+    .principal{
+    margin-left: 100px;
+    }
+    
+}
+@media (max-width:278px) {
+    .texto{
+        margin-left: 50px;
+    }
+    .principal{
+    margin-left: 50px;
+    }
+    
+}
+
+#footer {
+    background-color: #347AFE;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 550px) {
+    #footer {
+        height: 180px; /* Você pode ajustar a altura conforme necessário */
+    }
+
+    #footer h4, #footer h5 {
+        display: none;
+    }
+}
+
+@media (max-width: 390px) {
+    #footer img[src="/PCD.png"] {
+        display: none;
+    }
+    
+    #footer h4 {
+        margin-left: 0;
+    }
+}
