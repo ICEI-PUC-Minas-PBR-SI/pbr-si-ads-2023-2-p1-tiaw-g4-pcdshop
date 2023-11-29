@@ -62,6 +62,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Comprar        | String            | Efetuar a compra                          | Total: xxx  Comprar produto                    |
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Avaliação       | String            | Avaliar o item                         | Estrelas: xxxxx  Marca quantidade de estrelas                    |
 
 ## Tela do Vendedor
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
