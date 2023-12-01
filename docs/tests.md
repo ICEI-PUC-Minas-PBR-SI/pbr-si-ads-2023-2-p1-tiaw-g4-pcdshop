@@ -81,7 +81,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-011 e RF-014 -A aplicação deverá possuir um processo de compra de produtos incluindo checkout e carrinho e O Sistema deverá ter uma tela de descrição do item que leva pro carrinho ao clicar em comprar.|
 |Link do vídeo do teste realizado: | A gravar| 
 
-|
+
 
 
 
