@@ -57,8 +57,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 **Caso de Teste** | **CT03 - Adicionar um item ao carrinho parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Usuario clica em ver o produto na tela inical
-2) logo em seguida na tela do item clica em adicionar ao carrinho.
+**Procedimento**  | 1) Usuario clica em ver o produto na tela inical 2) logo em seguida na tela do item clica em adicionar ao carrinho.
 **Requisitos associados** | RF-011 e RF-014
 **Resultado esperado** | Gerar um pop-up para levar o usuario ao carrinho de compras e atualizar o carrinho com o produto desejado.
 **Dados de entrada** | usuario escolhe o produto.
