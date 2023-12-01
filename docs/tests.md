@@ -53,7 +53,32 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
 |---|---|
 |Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+**Caso de Teste** | **CT03 - Adicionar um item ao carrinho parte 1**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuario clica em ver o produto na tela inical
+2) logo em seguida na tela do item clica em adicionar ao carrinho.
+**Requisitos associados** | RF-011 e RF-014
+**Resultado esperado** | Gerar um pop-up para levar o usuario ao carrinho de compras e atualizar o carrinho com o produto desejado.
+**Dados de entrada** | usuario escolhe o produto.
+**Resultado obtido** | Sucesso.
+**Caso de Teste** | **CT04 - Adicionar um item ao carrinho parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Ao ser redirecionado ao carrinho, usuario pode adiconar mais itens atraves de um botão de "+" ou decrementar por um botão de "-" ou deletar pelo "x"
+**Requisitos associados** | RF-011 e RF-014
+**Resultado esperado** | Que mude a quantidade de item desejado pelo metodo do CRUD e que o item seja deletado ao clicar n opção.
+**Dados de entrada** | Quantidade de itens desejadas.
+**Resultado obtido** | Sucesso.
+
+## Registro dos Testes de Software
+
+|*Caso de Teste*                                 |*TC-03 & 04 - Adicionando um item ao carrinho*                                         |
+|---|---|
+|Requisito Associado | RF-011 e RF-014 -A aplicação deverá possuir um processo de compra de produtos incluindo checkout e carrinho e O Sistema deverá ter uma tela de descrição do item que leva pro carrinho ao clicar em comprar.|
+|Link do vídeo do teste realizado: | A gravar| 
+
+|
+
 
 
 ## Avaliação dos Testes de Software
