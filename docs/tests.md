@@ -64,6 +64,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 **Resultado esperado** | Gerar um pop-up para levar o usuario ao carrinho de compras e atualizar o carrinho com o produto desejado.
 **Dados de entrada** | usuario escolhe o produto.
 **Resultado obtido** | Sucesso.
+
+
 **Caso de Teste** | **CT04 - Adicionar um item ao carrinho parte 2**
  :--------------: | ------------
 **Procedimento**  | 1) Ao ser redirecionado ao carrinho, usuario pode adiconar mais itens atraves de um botão de "+" ou decrementar por um botão de "-" ou deletar pelo "x"
