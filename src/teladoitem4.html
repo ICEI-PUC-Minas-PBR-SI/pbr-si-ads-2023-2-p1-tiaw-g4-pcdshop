@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/teladoitem2.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>PCD SHOP.</title>
+  <script src="js\teladoitem4.js"> </script>
+</head>
+<header class="border-bottom border-danger" style="background-color: #337aff; color: white;">
+  <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="imagens/PCD.png" alt="Logo" id="SHOP" width="95px" height="95px">
+        </a>
+        <form class="d-flex w-25" role="search">
+          <div class="input-group">
+            <span class="input-group-text">🔎︎</span>
+            <input class="form-control" type="search" placeholder="BUSCAR PRODUTOS" aria-label="Search">
+          </div>
+        </form>
+        <div class="row">
+          <div class="col">
+            <a href="login.html"><img src="imagens/perfil.png" width="32px" height="32px"></a> Olá, faça seu login ou
+            cadastre-se
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="imagens/free-heart-icon-3510-thumb.png" width="31px" height="31px"> &nbsp; <a href="indexcarrinho.html"><img
+              src="imagens/shopping-cart-icon.png" height="31px"></a>
+          </div>
+        </div>
+
+        <!--Sidebar-->
+        <button class="navbar-toggler end-0" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span><img src="imagens/menu_icon.png"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end container-fluid w-auto" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-black text-danger" id="offcanvasDarkNavbarLabel">
+              <span style="color:#337aff;">MENU</span>
+            </h5>
+            <button type="submit" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mx-0.25">
+              <li class="nav-item border-bottom border-2 border-black">
+                <a class="nav-link" href="config.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/perfil_icon.png"
+                      class="img-fluid d-inline-block align-text-rignt"> MEU PERFIL</span>
+                </a>
+              </li>
+              <li class="nav-item pt-4">
+                  <a class="nav-link active" aria-current="page" href="index.html">
+                    <span class="fw-bold fs-5 text-black"> <img src="imagens/home.png"
+                        class="img-fluid d-inline-block align-text-rignt"> HOME</span>
+                  </a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="indexcarrinho.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/carrinho_icon.png"
+                      class="img-fluid d-inline-block align-text-rignt"> MEU CARRINHO</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vendas.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/compras_icon.png"
+                      class="img-fluid d-inline-block align-text-rignt"> COMPRAS/VENDAS</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="suporte.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/chat.png"
+                      class="img-fluid d-inline-block align-text-rignt"> SUPORTE</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="config.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/config_icon.png"
+                      class="img-fluid d-inline-block align-text-rignt"> CONFIGURAÇÕES</span>
+                </a>
+              </li>
+
+              <li class="nav-item position-absolute bottom-0">
+                <a class="nav-link" href="login.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/logout_icon.png"
+                      class="img-fluid d-inline-block align-text-rignt"> LOG OUT</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+</header>
+<body>
+  <div class="container">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagens/aparelho_auditivo.jfif" class="d-block w-50 mx-auto" alt="Slide 1 ">
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/aparelho_auditivo.jfif" class="d-block w-50 mx-auto" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/aparelho_auditivo.jfif" class="d-block w-75 mx-auto h-500" alt="Slide 3" style="height: auto;">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+  </main>
+  <div class="container">
+    <div class="titulo anuncio" style="padding-bottom: 50px;">
+      <h3 class="titulo" style="margin-left: 230px;">
+        Aparelho auditivo digital modelo Adulto
+      </h3>
+      
+      <div class="rating-preco-container">
+        <div class="rating">
+          <input type="radio" name="star" id="star1"><label for="star1"></label>
+          <input type="radio" name="star" id="star2"><label for="star2"></label>
+          <input type="radio" name="star" id="star3"><label for="star3"></label>
+          <input type="radio" name="star" id="star4"><label for="star4"></label>
+          <input type="radio" name="star" id="star5"><label for="star5"></label>              
+        </div>
+        <div class="Preço">
+          <span class="preco-antigo">R$ 240,00</span>
+          R$ 225,00
+          <div class="comprar">
+            <button class="btn-comprar" onclick="adicionarAoCarrinho4('imagens/aparelho_auditivo.jfif')">
+              <img class="carrinho" src="imagens/Carrinhodecompras.png" alt="">
+              <span>ADICIONAR AO CARRINHO</span>
+            </button> 
+          </div>
+        </div>
+        <div class="opacidade-texto">
+          À vista ou no Pix
+        </div>
+        <div class="avaliacao-count">
+          (1236) Avaliações
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="descricao">
+    <p>
+      <h3 class="desc">DESCRIÇÃO</h3>
+      Como modelo de entrada, a Multisport é versátil, polivalente e oferece a possibilidade de utilização em diversos ambientes para que você possa vivenciar experiências em modalidades esportivas como basquete, tênis e dança. Permite experimentar uma ampla variedade de modalidades esportivas e descobrir com tranquilidade a sua modalidade preferida.
+
+      Material: ABS
+
+      Cor: Marrom
+      
+      Pico OSPL 90 (dB SPL): 125dB
+      
+      HAF OSPL 90 (dB SPL): 115dB
+      
+      Pico Ganho (dB): 35dB
+      
+      Ganho HAF/FOG (dB): 30dB
+      
+      Faixa de frequência (Hz): 300-5500Hz
+      
+      Entrada equivalente Ruído (dB): 28dB
+      
+      Tensão: DC3.7V
+      
+      Corrente:    4mA
+      
+      Tempo de carregamento completo: 4-6 horas
+      
+      Tempo de trabalho: 32 horas
+      
+      Capacidade da bateria: 40mAh
+      
+      Tamanho do pacote: Aprox.10,5*10,5*4,5cm  4,13*4,13*1,77in
+      
+      Peso do pacote : Aprox.130g 4,59oz
+    </p>
+  </div>
+</div>
+</body>
+<footer class="border border-danger" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <img src="imagens/PCD.png" alt="Logo" id="SHOP" width="95px" height="95px">
+      </div>
+      <div class="col-3">
+        <h4>Informativo</h4>
+        Política de privacidade <br>
+        Dúvidas frequentes
+      </div>
+      <div class="col-3">
+        <h4>Suporte ao consumidor</h4>
+        Email: ----------- <br>
+        Telefone: xxxx xxxx-xxxx
+      </div>
+      <div class="col-3 mx-auto text-center align-items-center">
+        <h5>Métodos de pagamento</h5>
+        <img src="imagens/pix_icon_.png" width="50px" height="50px"> &nbsp; <img src="imagens/card_icon.png" width="50px" height="50px">
+        &nbsp; <img src="imagens/boleto_icon.png" width="50px" height="50px">
+      </div>
+    </div>
+    <div class="row-cols-12 text-center">
+      © Copyright PUC Minas 2023 - Minas Gerais (...)
+    </div>
+  </div>
+</footer>
+</html>
