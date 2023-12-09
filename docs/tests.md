@@ -76,7 +76,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 
 
-## Registro dos Testes de Software
+
 
 |*Caso de Teste*                                 |*TC-03 & 04 - Adicionando um item ao carrinho*                                         |
 |---|---|
