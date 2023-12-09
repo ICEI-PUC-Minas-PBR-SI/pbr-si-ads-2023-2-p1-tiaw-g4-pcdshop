@@ -79,7 +79,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-03 & 04 - Adicionando um item ao carrinho*                                         |
 |---|---|
 |Requisito Associado | RF-011 e RF-014 -A aplicação deverá possuir um processo de compra de produtos incluindo checkout e carrinho e O Sistema deverá ter uma tela de descrição do item que leva pro carrinho ao clicar em comprar.|
-|Link do vídeo do teste realizado: | A gravar| 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1BseLOmud9U5R1r-HRT3Hj1Z44XG6IDmJ/view?usp=drive_link| 
 
 
 
