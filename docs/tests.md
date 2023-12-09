@@ -59,6 +59,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Quantidade de itens desejadas.
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT05 - Adicionar e Remover um item aos favoritos **
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário deve clicar no botão de coração para adicionar o produto aos favoritos ode ele será redirecionado, assim que redirecionado o usuário pode remover dos favoritos apertando o botão.
+**Requisitos associados** | RF-** e RF-**
+**Resultado esperado** | Ter um item ou não na aba de favoritos.
+**Dados de entrada** | Quantidade de itens desejadas.
+**Resultado obtido** | Sucesso.
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
@@ -82,6 +90,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |---|---|
 |Requisito Associado | RF-011 e RF-014 -A aplicação deverá possuir um processo de compra de produtos incluindo checkout e carrinho e O Sistema deverá ter uma tela de descrição do item que leva pro carrinho ao clicar em comprar.|
 |Link do vídeo do teste realizado: |https://drive.google.com/file/d/1BseLOmud9U5R1r-HRT3Hj1Z44XG6IDmJ/view?usp=drive_link| 
+
+|*Caso de Teste*                                 |*TC-03 & 04 - Adicionando um item aos favoritos *                                         |
+|---|---|
+|Requisito Associado | RF-** e RF-0** -A aplicação deverá possuir um processo de favoritar e remover um produto da aba de favoritos|
+|Link do vídeo do teste realizado: https://drive.google.com/file/d/1Ph5nKrcwaOWSAnyw77swwsNUBFciVRPD/view?usp=sharing| 
 
 
 
