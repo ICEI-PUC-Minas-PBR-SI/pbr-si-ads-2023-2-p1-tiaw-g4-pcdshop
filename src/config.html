@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -12,99 +13,98 @@
 
 <body>
   <!--HEADER-->
-    <header class="border-bottom border-danger fs-5" style="background-color: #337aff; color: white;">
-      <nav class="navbar">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
+  <header class="" style="background-color: #337aff; color: white; height: 110px;">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="d-inline-block">
+          <a class="navbar-brand justify-content-start" href="index.html">
             <img src="imagens/PCD.png" alt="Logo" id="SHOP" width="95px" height="95px">
           </a>
-          <form class="d-flex w-25" role="search">
-            <div class="input-group">
-              <span class="input-group-text">🔎︎</span>
-              <input class="form-control" type="search" placeholder="BUSCAR PRODUTOS" aria-label="Search">
-            </div>
-          </form>
-          <div class="row">
-            <div class="col">
-              <a href="login.html"><img src="imagens/perfil.png" width="32px" height="32px">
-                <span id="login" class="text-light">Olá, faça seu login ou cadastre-se</span>
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <a href="favoritos.html"><img src="imagens/free-heart-icon-3510-thumb.png" width="31px" height="31px"></a>
-              &nbsp; <a href="indexcarrinho.html"><img src="imagens/shopping-cart-icon.png" height="31px"></a>
-            </div>
-          </div>
 
-          <!--Sidebar-->
-          <button class="navbar-toggler end-0" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span><img src="imagens/menu_icon.png"></span>
-          </button>
+          <a class="justify-content-end navbar-brand ms-2 " href="login.html">
+            <span id="login" class="text-light border-1 border-bottom">Olá, faça seu login ou cadastre-se</span>
+          </a>
 
-          <div class="offcanvas offcanvas-end container-fluid w-auto" tabindex="-1" id="offcanvasDarkNavbar"
-            aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title text-black text-danger" id="offcanvasDarkNavbarLabel">
-                <span style="color:#337aff;">MENU</span>
-              </h5>
-              <button type="submit" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
-                aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mx-0.25">
-                <li class="nav-item border-bottom border-2 border-black">
-                  <a class="nav-link" href="config.html">
-                    <span class="fw-bold fs-5 text-black"> <img src="imagens/perfil_icon.png"
-                        class="img-fluid d-inline-block align-text-rignt"> MEU PERFIL</span>
-                  </a>
-                </li>
-                <li class="nav-item pt-4">
-                  <a class="nav-link active" aria-current="page" href="index.html">
-                    <span class="fw-bold fs-5 text-black"> <img src="imagens/home.png"
-                        class="img-fluid d-inline-block align-text-rignt"> HOME</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="indexcarrinho.html">
-                    <span class="fw-bold fs-5 text-black"> <img src="imagens/carrinho_icon.png"
-                        class="img-fluid d-inline-block align-text-rignt"> MEU CARRINHO</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="vendas.html">
-                    <span class="fw-bold fs-5 text-black"> <img src="imagens/compras_icon.png"
-                        class="img-fluid d-inline-block align-text-rignt"> COMPRAS/VENDAS</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="suporte.html">
-                    <span class="fw-bold fs-5 text-black"> <img src="imagens/chat.png"
-                        class="img-fluid d-inline-block align-text-rignt"> SUPORTE</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="config.html">
-                    <span class="fw-bold fs-5 text-black"> <img src="imagens/config_icon.png"
-                        class="img-fluid d-inline-block align-text-rignt"> CONFIGURAÇÕES</span>
-                  </a>
-                </li>
-
-                <li class="nav-item position-absolute bottom-0">
-                  <a class="nav-link" href="login.html">
-                    <span class="fw-bold fs-5 text-black"> <img src="imagens/logout_icon.png"
-                        class="img-fluid d-inline-block align-text-rignt"> LOG OUT</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </nav>
-    </header>
+        <div class="d-inline-block justify-content-end ">
 
+
+      <!--Sidebar-->
+      <div class="navbar-brand">
+        <button class="navbar-toggler end-0 border-0 navbar-brand" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span><img src="imagens/menu_icon.png"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end container-fluid w-auto" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-black text-danger" id="offcanvasDarkNavbarLabel">
+            <span style="color:#337aff;">MENU</span>
+          </h5>
+          <button type="submit" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mx-0.25">
+            <li class="nav-item border-bottom border-2 border-black">
+              <a class="nav-link" href="config.html">
+                <span class="fw-bold fs-5 text-black"> <img src="imagens/perfil_icon.png"
+                    class="img-fluid d-inline-block align-text-rignt"> MEU PERFIL</span>
+              </a>
+            </li>
+            <li class="nav-item pt-4">
+              <a class="nav-link active" aria-current="page" href="index.html">
+                <span class="fw-bold fs-5 text-black"> <img src="imagens/home.png"
+                    class="img-fluid d-inline-block align-text-rignt"> HOME</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="indexcarrinho.html">
+                <span class="fw-bold fs-5 text-black"> <img src="imagens/coracao-menu.png"
+                    class="img-fluid d-inline-block align-text-rignt"> FAVORITOS</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="indexcarrinho.html">
+                <span class="fw-bold fs-5 text-black"> <img src="imagens/carrinho_icon.png"
+                    class="img-fluid d-inline-block align-text-rignt"> MEU CARRINHO</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="vendas.html">
+                <span class="fw-bold fs-5 text-black"> <img src="imagens/compras_icon.png"
+                    class="img-fluid d-inline-block align-text-rignt"> COMPRAS/VENDAS</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="suporte.html">
+                <span class="fw-bold fs-5 text-black"> <img src="imagens/chat.png"
+                    class="img-fluid d-inline-block align-text-rignt"> SUPORTE</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="config.html">
+                <span class="fw-bold fs-5 text-black"> <img src="imagens/config_icon.png"
+                    class="img-fluid d-inline-block align-text-rignt"> CONFIGURAÇÕES</span>
+              </a>
+            </li>
+
+            <li class="nav-item position-absolute bottom-0">
+              <a class="nav-link" href="login.html">
+                <span class="fw-bold fs-5 text-black"> <img src="imagens/logout_icon.png"
+                    class="img-fluid d-inline-block align-text-rignt"> LOG OUT</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        </div>
+      </div>
+      </div>
+
+    </nav>
+  </header>
   <!--MAIN-->
     <main>
         <div id="form">
@@ -240,99 +240,118 @@
       </div>
     </div>
   </footer>
-
-  <script>
   
-   // Carrega dados do Local Storage
-      function loadProfileData() {
-      var profileData = JSON.parse(localStorage.getItem('userProfile')) || {};
-       
-      document.getElementById('nome').value = profileData.nome || '';
-      document.getElementById('data-nascimento').value = profileData.data || '';
-      document.getElementById('email').value = profileData.email || '';
-      document.getElementById('telefone').value = profileData.telefone || '';
-    }
-
-    //Alterar dados no forms
-    document.getElementById('alterar-dados').addEventListener('click',
-       function alteraDados() {
-        var nomeNovo = document.getElementById('novo-nome').value.trim();
-        var dataNascimentoNova = document.getElementById('nova-data').value.trim();
-        var telefoneNovo = document.getElementById('novo-endereco').value.trim();
-        var emailNovo = document.getElementById('novo-email').value.trim();
-
-        // Verificações para campos vazios ou contendo apenas espaços em branco
-        if (nomeNovo === '' || dataNascimentoNova === '' || telefoneNovo === '' || emailNovo === '') {
-            alert("Todos os campos devem ser preenchidos.");
-            return;
-        }
-
-        // Validação da data de nascimento (maior que 18 anos)
-        var dataNascimento = new Date(dataNascimentoNova);
-        var hoje = new Date();
-        var idade = hoje.getFullYear() - dataNascimento.getFullYear();
-
-        if (hoje.getMonth() < dataNascimento.getMonth() || (hoje.getMonth() === dataNascimento.getMonth() && hoje.getDate() < dataNascimento.getDate())) {
-            idade--;
-        }
-
-        if (idade < 18) {
-            alert("Você deve ter mais de 18 anos para alterar seus dados.");
-            return;
-        }
-
-        // Alterar os elementos do formulário com os novos valores
-        document.getElementById('nome-atual').innerText = nomeNovo;
-        document.getElementById('data-nascimento-atual').innerText = dataNascimentoNova;
-        document.getElementById('telefone-atual').innerText = telefoneNovo;
-        document.getElementById('email-atual').innerText = emailNovo;
-
-        // Salvar os novos dados no localStorage
-        var novoPerfil = {
-          nome: nomeNovo,
-          data: dataNascimentoNova,
-          email: emailNovo,
-          telefone: telefoneNovo
-        };
-
-        localStorage.setItem('userProfile', JSON.stringify(novoPerfil));
-
-        // Fechar o modal (se necessário)
-        var modal = new bootstrap.Modal(document.getElementById('alteradados'));
-        modal.hide();
-
-        alert("Dados alterados com sucesso!");
-
-        
-       });
-
-    //Alterar a Senha
-    document.getElementById('troca-senha').addEventListener('click',
-       function mudarSenha() {
-        var senhaguardada = localStorage.getItem('senha-atual');
-        var senhaatual = document.getElementById('senha-atual').value;
-        var novasenha = document.getElementById('nova-senha').value;
-        var confirmasenha = document.getElementById('confirma-senha').value;
-
-        if (!senhaguardada || senhaatual !== senhaguardada || senhaatual === "") {
-            // Se não houver senha no localStorage ou se a senha atual estiver incorreta/vazia
-            alert("Senha atual incorreta ou campo vazio. Defina uma nova senha.");
-            localStorage.setItem('senha-atual', novasenha);
-        } else if (novasenha !== confirmasenha) {
-            // Se as novas senhas não coincidirem
-            alert("Senhas diferentes");
-        } else {
-            // Senha atual correta e novas senhas coincidem
-            localStorage.setItem('senha-atual', novasenha);
-            alert("Senha alterada com sucesso");
-        }
-    });
-
-    window.onload = loadProfileData;
-  </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous">
+  </script>
+
+
+  <script>
+  // Carrega dados do Local Storage
+function loadProfileData() {
+    var profileData = JSON.parse(localStorage.getItem('userProfile')) || {};
+
+    document.getElementById('nome').value = profileData.nome || '';
+    document.getElementById('data-nascimento').value = profileData.data || '';
+    document.getElementById('email').value = profileData.email || '';
+    document.getElementById('telefone').value = profileData.telefone || '';
+}
+
+// Alterar dados no formulário
+document.getElementById('alterar-dados').addEventListener('click', function () {
+    var nomeNovo = document.getElementById('novo-nome').value.trim();
+    var dataNascimentoNova = document.getElementById('nova-data').value.trim();
+    var telefoneNovo = document.getElementById('novo-telefone').value.trim();
+    var emailNovo = document.getElementById('novo-endereço').value.trim();
+
+    // Verificações para campos vazios ou contendo apenas espaços em branco
+    if (nomeNovo === '' || dataNascimentoNova === '' || telefoneNovo === '' || emailNovo === '') {
+        alert("Todos os campos devem ser preenchidos.");
+        return;
+    }
+
+    // Validação da data de nascimento (maior que 18 anos)
+    var dataNascimento = new Date(dataNascimentoNova);
+    var hoje = new Date();
+    var idade = hoje.getFullYear() - dataNascimento.getFullYear();
+
+    if (hoje.getMonth() < dataNascimento.getMonth() || (hoje.getMonth() === dataNascimento.getMonth() && hoje.getDate() < dataNascimento.getDate())) {
+        idade--;
+    }
+
+    if (idade < 18) {
+        alert("Você deve ter mais de 18 anos para alterar seus dados.");
+        return;
+    }
+
+    // Atualizar os dados no localStorage
+    var perfilAtualizado = {
+        nome: nomeNovo,
+        data: dataNascimentoNova,
+        email: emailNovo,
+        telefone: telefoneNovo
+    };
+
+    localStorage.setItem('userProfile', JSON.stringify(perfilAtualizado));
+
+    // Atualizar os elementos do formulário com os novos valores
+    document.getElementById('nome').value = nomeNovo;
+    document.getElementById('data-nascimento').value = dataNascimentoNova;
+    document.getElementById('telefone').value = telefoneNovo;
+    document.getElementById('email').value = emailNovo;
+
+    // Fechar o modal (se necessário)
+    var modal = new bootstrap.Modal(document.getElementById('alteradados'));
+    modal.hide();
+
+    alert("Dados alterados com sucesso!");
+    
+    $(document).ready(function () {
+    // Verifica se há dados no localStorage
+    if (localStorage.getItem('profileData')) {
+        // Obtém os dados do localStorage
+        var profileData = JSON.parse(localStorage.getItem('profileData'));
+
+        // Obtém o nome do perfil (se existir)
+        var nome = profileData.nome || '';
+
+        // Atualiza o conteúdo do elemento com base nos dados do localStorage
+        $('#login').text("Olá, " + nomeNovo + ". Seja bem-vindo(a)!");
+    } else {
+        // Caso não haja dados no localStorage, exibe uma mensagem padrão
+        $('#login').text("Olá, " + nomeNovo +". Seja bem-vindo(a)!");
+    }
+});
+
+});
+
+// Alterar a Senha
+document.getElementById('troca-senha').addEventListener('click', function () {
+    var senhaguardada = localStorage.getItem('senha-atual');
+    var senhaatual = document.getElementById('senha-atual').value;
+    var novasenha = document.getElementById('nova-senha').value;
+    var confirmasenha = document.getElementById('confirma-senha').value;
+
+    if (!senhaguardada || senhaatual !== senhaguardada || senhaatual === "") {
+        // Se não houver senha no localStorage ou se a senha atual estiver incorreta/vazia
+        alert("Senha atual incorreta ou campo vazio. Defina uma nova senha.");
+        localStorage.setItem('senha-atual', novasenha);
+    } else if (novasenha !== confirmasenha) {
+        // Se as novas senhas não coincidirem
+        alert("Senhas diferentes");
+    } else {
+        // Senha atual correta e novas senhas coincidem
+        localStorage.setItem('senha-atual', novasenha);
+        alert("Senha alterada com sucesso");
+    }
+
+});
+
+
+
+window.onload = loadProfileData;
+
   </script>
 </body>
 

@@ -1,0 +1,21 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nome": "Exemplo 1",
+        "data": "1990-01-01",
+        "email": "exemplo1@email.com",
+        "telefone": "(11) 1234-5678",
+        "senha": "senha1"
+      },
+      {
+        "id": 2,
+        "nome": "Exemplo 2",
+        "data": "1995-05-15",
+        "email": "exemplo2@email.com",
+        "telefone": "(22) 9876-5432",
+        "senha": "senha2"
+      }
+    ]
+  }
+  
