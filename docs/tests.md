@@ -44,6 +44,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT03 - Adicionar um item ao carrinho parte 1**
  :--------------: | ------------
+**Procedimento**  | 1) Usuario clica em meu perfil 2) Na tela de alteração de perfil pode alterar os dados de cadastro e senha.
+**Requisitos associados** | RF-006
+**Resultado esperado** | Gerar um pop-up dizendo dados alterados com sucesso ou informando que a senha foi alterada com sucesso.
+**Dados de entrada** | Usuario altera os dados cadastrais.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT08 - Adicionar um item ao carrinho parte 1**
+ :--------------: | ------------
 **Procedimento**  | 1) Usuario clica em ver o produto na tela inical 2) logo em seguida na tela do item clica em adicionar ao carrinho.
 **Requisitos associados** | RF-011 e RF-014
 **Resultado esperado** | Gerar um pop-up para levar o usuario ao carrinho de compras e atualizar o carrinho com o produto desejado.
@@ -51,7 +59,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado obtido** | Sucesso.
 
 
-**Caso de Teste** | **CT04 - Adicionar um item ao carrinho parte 2**
+**Caso de Teste** | **CT09 - Adicionar um item ao carrinho parte 2**
  :--------------: | ------------
 **Procedimento**  | 1) Ao ser redirecionado ao carrinho, usuario pode adiconar mais itens atraves de um botão de "+" ou decrementar por um botão de "-" ou deletar pelo "x"
 **Requisitos associados** | RF-011 e RF-014
