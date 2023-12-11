@@ -106,70 +106,46 @@
 
     </nav>
   </header>
+ <div class="alinhamento">
   <main class="main">
     <section id="announcements">
-      <header class="announcement-header">
-        <h2 class="header-header-title">
-          Cadastro e edição de anúncios
-        </h2>
-        <button class="announcement-item-button status-selling" id="register-announcement-button"
-          aria-controls="register-announcement-dialog"> Cadastrar</button>
-      </header>
       <div class="announcement-container">
         <div class="announcement-item-container">
-          <span class="announcement-item-status status-announced"> Anunciado</span>
-          <img class="announcement-item-image" src="imagens/product-1.png" alt="announcement-image-1">
-          <h3 class="announcement-item-title">Produto 1</h3>
-          <div class="announcement-item-price-container">
-            <span class="announcement-item-price">R$ 80,00</span>
-          </div>
-          <p class="announcement-item-description">Descrição do produto 1 Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Ea enim a aliquid, optio aspernatur cum ipsum provident qui fugit culpa ipsa quos delectus
-            accusamus saepe cupiditate repellat voluptatibus necessitatibus nobis?</p>
-          <div class="announcement-item-buttons-container">
-            <button class="announcement-item-button remove-button">Remover</button>
-            <button class="announcement-item-button edit-button">Editar</button>
-          </div>
-
-        </div>
-        <div class="announcement-item-container">
-          <span class="announcement-item-status status-selling"> Vendido</span>
-          <img class="announcement-item-image" src="imagens/product-2.png" alt="announcement-image-1">
-          <h3 class="announcement-item-title">Produto 1</h3>
-          <div class="announcement-item-price-container">
-            <span class="announcement-item-price">R$ 100,00</span>
-          </div>
-          <p class="announcement-item-description">Descrição do produto 2 Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Ea enim a aliquid, optio aspernatur cum ipsum provident qui fugit culpa ipsa quos delectus
-            accusamus saepe cupiditate repellat voluptatibus necessitatibus nobis?</p>
-          <div class="announcement-item-buttons-container">
-            <button class="announcement-item-button remove-button">Remover</button>
-            <button class="announcement-item-button edit-button">Editar</button>
-          </div>
-
-        </div>
+          <input
+            type="file"
+            id="img"
+            name="img"
+            accept="image/*"
+            class="announcement-item-image"
+          />
+          <img src="imagens/lupa.png">
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="NOME DO PRODUTO"
+          />
+          <input
+            type="text"
+            id="preco"
+            name="preco"
+            placeholder="PREÇO DO PRODUTO"
+          />
+          <input
+            type="text"
+            id="descricao"
+            name="descricao"
+            placeholder="DESCRIÇÃO DO PRODUTO"
+          />
+        <button onClick="adicionarProduto(event)" autofocus>
+          Cadastrar Anúncio
+        </button>
       </div>
-    </section>
-  </main>
-  <dialog id="register-announcement-dialog" class="dialog">
-    <h3>Cadastro de produtos</h3>
-    <form>
-      <div class="form-container">
-        <label for="product-name">Nome do produto</label>
-        <input type="text" name="product-name" id="product-name" placeholder="Nome do produto" required>
-        <label for="product-image">Imagem do produto</label>
-        <input type="file" name="product-image" id="product-image" placeholder="Imagem" accept="image/png" required>
-        <label for="product-image">Preço do produto</label>
-        <input type="number" name="product-image" id="product-image" placeholder="preço do produto" accept="image/png"
-          required>
-      </div>
-      <div class="announcement-item-buttons-container">
-        <button class="announcement-item-button " id="announcement-close-button" autofocus>Cancelar</button>
-        <button class="announcement-item-button edit-button" id="announcement-close-button" autofocus>Cadastrar
-          Anúncio</button>
-      </div>
-    </form>
-  </dialog>
+    </div>
+        </section>
+      </main>
+      <div id="listaImg"></div> 
+    </div>
   <footer class="border-top border-danger" id="footer">
     <div class="container">
       <div class="row">
@@ -194,9 +170,7 @@
               </a>
             </li>
           </ul>
-          <!-- <h4>Informativo</h4>
-          Política de privacidade <br>
-          Dúvidas frequentes -->
+
         </div>
         <div class="col-3">
           <h3>Suporte ao consumidor</h3>
@@ -221,7 +195,7 @@
       </div>
     </div>
   </footer>
-  <script type="module" src="imagens/scripts/menu.js"></script>
+  <script src="javascript/criaranuncio.js"></script>
 </body>
 
 </html>
