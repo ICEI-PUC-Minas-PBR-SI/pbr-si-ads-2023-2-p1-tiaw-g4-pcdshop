@@ -200,30 +200,11 @@ textarea {
 }
 
 /* Conteúdo principal da página */
-.main {
-  background-color: #FFFFFF;
-  margin: 2em;
-}
 
-.announcement-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-block: 1em;
-}
 
-.announcement-header-title {
-  color: var(--color-primary-light);
-}
 
-.announcement-container {
-  width: 100%;
-  padding: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-  background-color: var(--paper-color-lighter);
-}
+
+
 
 .announcement-item-container {
   width: 33%;
@@ -342,4 +323,57 @@ textarea {
 }
 .copyright{
   margin-top: 1em;
+}
+img[src="imagens/lupa.png"] {
+ margin-top: -250px;
+}
+#listaImg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2em;
+   /* Ajuste conforme necessário */
+  width: 400px;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 5000px;
+  height: 400px;
+  margin-bottom: 2em;
+  margin-right: 1500px;
+}
+
+.minhaImagem {
+  width: 100px;
+  height: 100px;
+}
+
+.meuLink {
+  color: blue;
+  text-decoration: none;
+}
+
+.meuPreco {
+  color: green;
+}
+
+.minhaDescricao {
+  font-size: 14px;
+}
+.alinhamento {
+  display: flex;
+  justify-content: space-between;
+}
+main {width: 1500px;
+}
+
+.produto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 1000px;
+  /* Adicione outros estilos conforme necessário */
 }
