@@ -54,11 +54,42 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Descrição das estruturas:
 
 
-## Notícia
+## Tela de Login
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Login          | String            | Email para efetuar o cadastro             | miguelbarbosa@gmail.com                        |
+| Senha          | String            | Identificador unico para o login          | Senhaindecifravel                              |
+| Recuperar senha| Texto             | Recuperar senha.                          | Senhaindecifravel.                             |
+                              
+## Tela Inicial
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Busca          | String            | Buscar pelo produto necessário            | miguelbarbosa@gmail.com                        |
+| Perfil         | String            | Abrir a conta pessoal                     | *****                                          |
+|Comprar         | String            | Abrir a tela do produto                   | Bola adaptável                                 |
+| Favoritos      | String            | Acessar seus produtos favoritos           | Salvar um produto para a compra posterior      |
 
+## Tela do Carrinho
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Comprar        | String            | Efetuar a compra                          | Total: xxx  Comprar produto                    |
+
+## Tela do Produto
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Comprar        | String            | Efetuar a compra                          | Total: xxx  Comprar produto                    |
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Avaliação       | String            | Avaliar o item                         | Estrelas: xxxxx  Marca quantidade de estrelas                    |
+
+## Tela do Vendedor
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Criar anúncio  | String            | Criar anúncio                             | Criar um anúncio do próprio vendedor           |
+| Remover anúncio| String            | Remover anúncio desejado                  | Criar um anúncio do próprio vendedor           |
+|Editar anúncio  | String            | Editar as informações do anúncio          | Atualizar preço                                |  
+
+## Tela do Fale Conosco
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Chat           | String            | Resolver problemas ou acessar informações | Chat para tirar dúvida sobre pagamentos        |
