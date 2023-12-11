@@ -9,100 +9,103 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="./js/favoritos.js"></script>
+    <link rel="stylesheet" href="./css/botaofavoritos.css">
   <title>PCD SHOP.</title>
   <script src="js\teladoitem3.js"> </script>
+  <script src ="./js/favoritositem3.js"></script>
+  <script src="./js/favoritos.js"></script>
 </head>
-<header class="" style="background-color: #337aff; color: white; height: 110px;">
+<header class="border-bottom border-danger" style="background-color: #337aff; color: white;">
   <nav class="navbar">
-    <div class="container-fluid">
-      <div class="d-inline-block">
-        <a class="navbar-brand justify-content-start" href="index.html">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
           <img src="imagens/PCD.png" alt="Logo" id="SHOP" width="95px" height="95px">
         </a>
+        <form class="d-flex w-25" role="search">
+          <div class="input-group">
+            <span class="input-group-text">🔎︎</span>
+            <input class="form-control" type="search" placeholder="BUSCAR PRODUTOS" aria-label="Search">
+          </div>
+        </form>
+        <div class="row">
+          <div class="col">
+            <a href="login.html"><img src="imagens/perfil.png" width="32px" height="32px"></a> Olá, faça seu login ou
+            cadastre-se
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="imagens/free-heart-icon-3510-thumb.png" width="31px" height="31px"> &nbsp; <a href="indexcarrinho.html"><img
+              src="imagens/shopping-cart-icon.png" height="31px"></a>
+          </div>
+        </div>
 
-        <a class="justify-content-end navbar-brand ms-2 " href="login.html">
-          <span id="login" class="text-light border-1 border-bottom">Olá, faça seu login ou cadastre-se</span>
-        </a>
+        <!--Sidebar-->
+        <button class="navbar-toggler end-0" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span><img src="imagens/menu_icon.png"></span>
+        </button>
 
+        <div class="offcanvas offcanvas-end container-fluid w-auto" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-black text-danger" id="offcanvasDarkNavbarLabel">
+              <span style="color:#337aff;">MENU</span>
+            </h5>
+            <button type="submit" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mx-0.25">
+              <li class="nav-item border-bottom border-2 border-black">
+                <a class="nav-link" href="config.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/perfil_icon.png"
+                      class="img-fluid d-inline-block align-text-rignt"> MEU PERFIL</span>
+                </a>
+              </li>
+              <li class="nav-item pt-4">
+                  <a class="nav-link active" aria-current="page" href="index.html">
+                    <span class="fw-bold fs-5 text-black"> <img src="imagens/home.png"
+                        class="img-fluid d-inline-block align-text-rignt"> HOME</span>
+                  </a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="indexcarrinho.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/carrinho_icon.png"
+                      class="img-fluid d-inline-block align-text-rignt"> MEU CARRINHO</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vendas.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/compras_icon.png"
+                      class="img-fluid d-inline-block align-text-rignt"> COMPRAS/VENDAS</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="suporte.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/chat.png"
+                      class="img-fluid d-inline-block align-text-rignt"> SUPORTE</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="config.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/config_icon.png"
+                      class="img-fluid d-inline-block align-text-rignt"> CONFIGURAÇÕES</span>
+                </a>
+              </li>
+
+              <li class="nav-item position-absolute bottom-0">
+                <a class="nav-link" href="login.html">
+                  <span class="fw-bold fs-5 text-black"> <img src="imagens/logout_icon.png"
+                      class="img-fluid d-inline-block align-text-rignt"> LOG OUT</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="d-inline-block justify-content-end ">
-
-
-    <!--Sidebar-->
-    <div class="navbar-brand">
-      <button class="navbar-toggler end-0 border-0 navbar-brand" type="button" data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-      <span><img src="imagens/menu_icon.png"></span>
-    </button>
-
-    <div class="offcanvas offcanvas-end container-fluid w-auto" tabindex="-1" id="offcanvasDarkNavbar"
-      aria-labelledby="offcanvasDarkNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title text-black text-danger" id="offcanvasDarkNavbarLabel">
-          <span style="color:#337aff;">MENU</span>
-        </h5>
-        <button type="submit" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
-          aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mx-0.25">
-          <li class="nav-item border-bottom border-2 border-black">
-            <a class="nav-link" href="config.html">
-              <span class="fw-bold fs-5 text-black"> <img src="imagens/perfil_icon.png"
-                  class="img-fluid d-inline-block align-text-rignt"> MEU PERFIL</span>
-            </a>
-          </li>
-          <li class="nav-item pt-4">
-            <a class="nav-link active" aria-current="page" href="index.html">
-              <span class="fw-bold fs-5 text-black"> <img src="imagens/home.png"
-                  class="img-fluid d-inline-block align-text-rignt"> HOME</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="indexcarrinho.html">
-              <span class="fw-bold fs-5 text-black"> <img src="imagens/coracao-menu.png"
-                  class="img-fluid d-inline-block align-text-rignt"> FAVORITOS</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="indexcarrinho.html">
-              <span class="fw-bold fs-5 text-black"> <img src="imagens/carrinho_icon.png"
-                  class="img-fluid d-inline-block align-text-rignt"> MEU CARRINHO</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="vendas.html">
-              <span class="fw-bold fs-5 text-black"> <img src="imagens/compras_icon.png"
-                  class="img-fluid d-inline-block align-text-rignt"> COMPRAS/VENDAS</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="suporte.html">
-              <span class="fw-bold fs-5 text-black"> <img src="imagens/chat.png"
-                  class="img-fluid d-inline-block align-text-rignt"> SUPORTE</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="config.html">
-              <span class="fw-bold fs-5 text-black"> <img src="imagens/config_icon.png"
-                  class="img-fluid d-inline-block align-text-rignt"> CONFIGURAÇÕES</span>
-            </a>
-          </li>
-
-          <li class="nav-item position-absolute bottom-0">
-            <a class="nav-link" href="login.html">
-              <span class="fw-bold fs-5 text-black"> <img src="imagens/logout_icon.png"
-                  class="img-fluid d-inline-block align-text-rignt"> LOG OUT</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-      </div>
-    </div>
-    </div>
-
-  </nav>
+    </nav>
 </header>
 <body>
   <div class="container">
@@ -165,6 +168,11 @@
               <span>ADICIONAR AO CARRINHO</span>
             </button> 
           </div>
+            <div class="fav">
+            <button class="btn-heart" onclick="adicionarAosFavoritos('ID_DO_SEU_ITEM')" onclick="toggleHeart(this)">
+              <span class="heart-icon">&#10084;&#65039;</span>
+            </button>
+          </div>
         </div>
         <div class="opacidade-texto">
           À vista ou no Pix
@@ -175,6 +183,9 @@
       </div>
     </div>
   </div>
+  
+    
+  </div>
   <div class="descricao">
     <p>
       <h3 class="desc">DESCRIÇÃO</h3>
@@ -182,6 +193,7 @@
     </p>
   </div>
 </div>
+
 </body>
 <footer class="border border-danger" id="footer">
   <div class="container">
