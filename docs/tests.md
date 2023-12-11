@@ -25,10 +25,10 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Cadastrar no Sistema**
+**Caso de Teste** | **CT01 - Cadastro no Sistema**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário informa nome, data de nascimento, email, telefone, senha e confirma senha e clica no botão "Cadastrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela inicial.
-**Requisitos associados** | RF-001
+**Requisitos associados** | RF-001 / RF-013 / RF-005
 **Resultado esperado** | Criar um cadastro e direcionar para o login.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro: nome, data de nascimento, email, telefone, senha.
 **Resultado obtido** | Sucesso.
@@ -36,7 +36,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT02 - Logar no sistema**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa email, senha.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. e o introduzem no sistema <br> 3) A aplicação verifica os dados e direciona o usuário para a tela de inicial caso sejam verdadeiros.
+**Procedimento**  | 1) Usuário informa email e senha.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 3) Caso a aplicação seja verdadeira  e direciona o usuário para a tela de inicial.
 **Requisitos associados** | RF-002
 **Resultado esperado** | Logar no sistema e direcionar para a tela inicial
 **Dados de entrada** | Inserção de dados no email e senha.
