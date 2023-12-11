@@ -75,6 +75,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Informações do produto
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT06 & CT8 - Avaliar um produto cadastrado  **
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário deve clicar na quantidade de estrelas que ela avalia o produto, para que o comprador escolha o melhor produto para ele.
+**Requisitos associados** | RF-04
+**Resultado esperado** | Avaliar um produto
+**Dados de entrada** | Quantidade de estrelas
+**Resultado obtido** | Sucesso.
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
@@ -104,11 +112,15 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-15 -A aplicação deverá possuir um processo de favoritar e remover um produto da aba de favoritos|
 |Link do vídeo do teste realizado: https://drive.google.com/file/d/1Ph5nKrcwaOWSAnyw77swwsNUBFciVRPD/view?usp=sharing| 
 
-|*Caso de Teste*                                 |*TC-06 & 07 - Adicionar/Editar/Remover um item como vendedor & Acompanhar o produto pela página de produtos e pelo histórico de vendas/compras *                                         |
+|*Caso de Teste*                                 |*TC-06 & 07 - Adicionar/Editar/Remover um item como vendedor & Acompanhar o produto pela página de produtos e pelo histórico de vendas/compras *                        |
 |---|---|
 |Requisito Associado |O vendedor poderá criar cadastro, anunciar, editar e excluir produtos|
-|Link do vídeo do teste realizado: https://drive.google.com/file/d/10hQJ3SLlMFYq-XwhJuh5EgC-BP5zgwRB/view 
+|Link do vídeo do teste realizado: https://drive.google.com/file/d/10hQJ3SLlMFYq-XwhJuh5EgC-BP5zgwRB/view|
 
+|*Caso de Teste*                                 |*TC-08 -  Avaliar um produto cadastrado *                                         |
+|---|---|
+|Requisito Associado | O Sistema deverá ter um sistema de avaliação de produto e perfil |
+|Link do vídeo do teste realizado: https://drive.google.com/file/d/1DHhw2-MYikbfPA5PadejVhjh7khqnJTP/view?usp=sharing|
 
 
 
