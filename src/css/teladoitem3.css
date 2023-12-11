@@ -213,8 +213,21 @@ align-items: center;
     margin-left: 0; /* Remove o recuo à direita */
     margin-top: 10px; /* Adiciona espaço acima */
   }
+
 }
 
+.btn-favoritos{
+    margin-left: 760px;
+    background-color: #347AFE; /* Cor azul de fundo */
+    color: white; /* Cor do texto branca */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold;
+    width: 250px;
+}
 
 
 
