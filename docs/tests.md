@@ -104,6 +104,10 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-15 -A aplicação deverá possuir um processo de favoritar e remover um produto da aba de favoritos|
 |Link do vídeo do teste realizado: https://drive.google.com/file/d/1Ph5nKrcwaOWSAnyw77swwsNUBFciVRPD/view?usp=sharing| 
 
+|*Caso de Teste*                                 |*TC-06 & 07 - Adicionar/Editar/Remover um item como vendedor & Acompanhar o produto pela página de produtos e pelo histórico de vendas/compras *                                         |
+|---|---|
+|Requisito Associado |O vendedor poderá criar cadastro, anunciar, editar e excluir produtos|
+|Link do vídeo do teste realizado: https://drive.google.com/file/d/10hQJ3SLlMFYq-XwhJuh5EgC-BP5zgwRB/view 
 
 
 
