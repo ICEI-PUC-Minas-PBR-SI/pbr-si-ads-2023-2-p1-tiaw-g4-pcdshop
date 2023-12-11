@@ -1,0 +1,12 @@
+.btn-heart {
+  border: 2px solid #337aff; /* Utiliza a mesma cor do botão do carrinho */
+  border-radius: 50%;
+  padding: 5px;
+  background-color: transparent;
+  transition: background-color 0.3s ease; /* Adiciona transição suave para o preenchimento */
+  margin-left: 40px;
+}
+
+.btn-heart:hover {
+  background-color: #337aff; /* Define a cor de preenchimento ao passar o mouse */
+}
