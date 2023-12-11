@@ -67,6 +67,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Quantidade de itens desejadas.
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT06 & CT7 - Adicionar/Editar/Remover um item como vendedor & Acompanhar o produto pela página de produtos e pelo histórico de vendas/compras **
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário deve clicar no botão de criar anúncio para criar seu produto, assim que o produto for criado, será automaticamente enviado para a página de histórico de vendas e de compras e para a página de todos os produtos
+**Requisitos associados** | RF-09
+**Resultado esperado** | Cadastrar um novo produto no nosso site
+**Dados de entrada** | Informações do produto
+**Resultado obtido** | Sucesso.
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
