@@ -25,21 +25,21 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Cadastras no Sistema**
+**Caso de Teste** | **CT01 - Cadastrar no Sistema**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, data de nascimento, email, telefone, senha e confirma senha e clica no botão "Cadastrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
+**Procedimento**  | 1) Usuário informa nome, data de nascimento, email, telefone, senha e confirma senha e clica no botão "Cadastrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela inicial.
 **Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir parao index.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado esperado** | Criar um cadastro e direcionar para o login.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro: nome, data de nascimento, email, telefone, senha.
 **Resultado obtido** | Sucesso.
 
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Logar no sistema**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Procedimento**  | 1) Usuário informa email, senha.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. e o introduzem no sistema <br> 3) A aplicação verifica os dados e direciona o usuário para a tela de inicial caso sejam verdadeiros.
+**Requisitos associados** | RF-002
+**Resultado esperado** | Logar no sistema e direcionar para a tela inicial
+**Dados de entrada** | Inserção de dados no email e senha.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT03 - Adicionar um item ao carrinho parte 1**
