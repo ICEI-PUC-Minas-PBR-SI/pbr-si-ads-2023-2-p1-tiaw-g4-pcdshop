@@ -12,98 +12,172 @@
 </head>
 
 <body>
-  <header class="" style="background-color: #337aff; color: white; height: 110px;">
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="d-inline-block">
-          <a class="navbar-brand justify-content-start" href="index.html">
-            <img src="imagens/PCD.png" alt="Logo" id="SHOP" width="95px" height="95px">
+  <header
+      class="border-bottom border-danger fs-5"
+      style="background-color: #337aff; color: white"
+    >
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="imagens/PCD.png"
+              alt="Logo"
+              id="SHOP"
+              width="95px"
+              height="95px"
+            />
           </a>
+          <div class="row">
+            <div class="col">
+              <a href="login.html"
+                ><img src="imagens/perfil.png" width="32px" height="32px"
+              /></a>
+              Olá, faça seu login ou cadastre-se
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <a href="favoritos.html"
+                ><img
+                  src="imagens/free-heart-icon-3510-thumb.png"
+                  width="31px"
+                  height="31px"
+              /></a>
+              &nbsp;
+              <a href="indexcarrinho.html"
+                ><img src="imagens/shopping-cart-icon.png" height="31px"
+              /></a>
+            </div>
+          </div>
 
-          <a class="justify-content-end navbar-brand ms-2 " href="login.html">
-            <span id="nome-usuario" class="text-light border-1 border-bottom">Olá, faça seu login ou cadastre-se</span>
-          </a>
+          <!--Sidebar-->
+          <button
+            class="navbar-toggler end-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span><img src="imagens/menu_icon.png" /></span>
+          </button>
 
+          <div
+            class="offcanvas offcanvas-end container-fluid w-auto"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title text-black text-danger"
+                id="offcanvasDarkNavbarLabel"
+              >
+                <span style="color: #337aff">MENU</span>
+              </h5>
+              <button
+                type="submit"
+                class="btn-close btn-close-dark"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav justify-content-end flex-grow-1 pe-3 mx-0.25"
+              >
+                <li class="nav-item border-bottom border-2 border-black">
+                  <a class="nav-link" href="config.html">
+                    <span class="fw-bold fs-5 text-black">
+                      <img
+                        src="imagens/perfil_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"
+                      />
+                      MEU PERFIL</span
+                    >
+                  </a>
+                </li>
+                <li class="nav-item pt-4">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                  >
+                    <span class="fw-bold fs-5 text-black">
+                      <img
+                        src="imagens/home.png"
+                        class="img-fluid d-inline-block align-text-rignt"
+                      />
+                      HOME</span
+                    >
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="indexcarrinho.html"
+                  >
+                    <span class="fw-bold fs-5 text-black">
+                      <img
+                        src="imagens/carrinho_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"
+                      />
+                      MEU CARRINHO</span
+                    >
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="vendas.html">
+                    <span class="fw-bold fs-5 text-black">
+                      <img
+                        src="imagens/compras_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"
+                      />
+                      COMPRAS/VENDAS</span
+                    >
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="suporte.html">
+                    <span class="fw-bold fs-5 text-black">
+                      <img
+                        src="imagens/chat.png"
+                        class="img-fluid d-inline-block align-text-rignt"
+                      />
+                      SUPORTE</span
+                    >
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="config.html">
+                    <span class="fw-bold fs-5 text-black">
+                      <img
+                        src="imagens/config_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"
+                      />
+                      CONFIGURAÇÕES</span
+                    >
+                  </a>
+                </li>
+
+                <li class="nav-item position-absolute bottom-0">
+                  <a class="nav-link" href="login.html">
+                    <span class="fw-bold fs-5 text-black">
+                      <img
+                        src="imagens/logout_icon.png"
+                        class="img-fluid d-inline-block align-text-rignt"
+                      />
+                      LOG OUT</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="d-inline-block justify-content-end ">
-
-
-      <!--Sidebar-->
-      <div class="navbar-brand">
-        <button class="navbar-toggler end-0 border-0 navbar-brand" type="button" data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-        <span><img src="imagens/menu_icon.png"></span>
-      </button>
-
-      <div class="offcanvas offcanvas-end container-fluid w-auto" tabindex="-1" id="offcanvasDarkNavbar"
-        aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title text-black text-danger" id="offcanvasDarkNavbarLabel">
-            <span style="color:#337aff;">MENU</span>
-          </h5>
-          <button type="submit" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mx-0.25">
-            <li class="nav-item border-bottom border-2 border-black">
-              <a class="nav-link" href="config.html">
-                <span class="fw-bold fs-5 text-black"> <img src="imagens/perfil_icon.png"
-                    class="img-fluid d-inline-block align-text-rignt"> MEU PERFIL</span>
-              </a>
-            </li>
-            <li class="nav-item pt-4">
-              <a class="nav-link active" aria-current="page" href="index.html">
-                <span class="fw-bold fs-5 text-black"> <img src="imagens/home.png"
-                    class="img-fluid d-inline-block align-text-rignt"> HOME</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="indexcarrinho.html">
-                <span class="fw-bold fs-5 text-black"> <img src="imagens/coracao-menu.png"
-                    class="img-fluid d-inline-block align-text-rignt"> FAVORITOS</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="indexcarrinho.html">
-                <span class="fw-bold fs-5 text-black"> <img src="imagens/carrinho_icon.png"
-                    class="img-fluid d-inline-block align-text-rignt"> MEU CARRINHO</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="vendas.html">
-                <span class="fw-bold fs-5 text-black"> <img src="imagens/compras_icon.png"
-                    class="img-fluid d-inline-block align-text-rignt"> COMPRAS/VENDAS</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="suporte.html">
-                <span class="fw-bold fs-5 text-black"> <img src="imagens/chat.png"
-                    class="img-fluid d-inline-block align-text-rignt"> SUPORTE</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="config.html">
-                <span class="fw-bold fs-5 text-black"> <img src="imagens/config_icon.png"
-                    class="img-fluid d-inline-block align-text-rignt"> CONFIGURAÇÕES</span>
-              </a>
-            </li>
-
-            <li class="nav-item position-absolute bottom-0">
-              <a class="nav-link" href="login.html">
-                <span class="fw-bold fs-5 text-black"> <img src="imagens/logout_icon.png"
-                    class="img-fluid d-inline-block align-text-rignt"> LOG OUT</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-        </div>
-      </div>
-      </div>
-
-    </nav>
-  </header>
+      </nav>
+    </header>
 
   <main class="pt-4">
     <div class="container-fluid">
