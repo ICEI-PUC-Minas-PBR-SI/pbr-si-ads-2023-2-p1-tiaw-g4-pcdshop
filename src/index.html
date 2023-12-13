@@ -30,10 +30,12 @@
           <div class="row">
             <div class="col">
               <a href="login.html"
-                ><img src="imagens/perfil.png" width="32px" height="32px"
-              /></a>
-              Olá, faça seu login ou cadastre-se
+                ><img src="imagens/perfil.png" width="32px" height="32px"/>
+                <span id="usuario-login" class="text-light">Olá, faça seu login ou cadastre-se</span>
+              </a>
+
             </div>
+
           </div>
           <div class="row">
             <div class="col">
@@ -306,6 +308,15 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    // Recuperar o nome do último usuário do localStorage
+var ultimoUsuario = localStorage.getItem('ultimoUsuario');
+
+// Atualizar o texto no elemento <span id="usuario-login">
+document.getElementById('usuario-login').innerText = "Ola, seja bem-vindo(a) " + ultimoUsuario + "!" || 'Olá, faça seu login ou cadastre-se';
+
+  </script>
   
 </body>
 

@@ -235,7 +235,7 @@
                         </div>
                         <div class="mb-3">
                           <label for="email" class="col-form-label">Confirmar e-mail</label>
-                          <input type="email" class="form-control" id="novo-endereço">
+                          <input type="email" class="form-control" id="novo-email">
                         </div>
                         <div class="mb-3">
                           <label for="telefone" class="col-form-label">Confirmar telefone</label>
@@ -326,6 +326,108 @@
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
   crossorigin="anonymous">
 </script>
+
+<script>
+  
+  document.addEventListener('DOMContentLoaded', function () {
+  // Função para preencher os campos nos modais com os dados do último usuário cadastrado
+  function preencherCampos() {
+    // Obter os usuários do localStorage
+    var usuariosCadastrados = JSON.parse(localStorage.getItem('usuarios')) || [];
+
+    // Verificar se há algum usuário cadastrado
+    if (usuariosCadastrados.length > 0) {
+      // Obter o último usuário cadastrado
+      var ultimoUsuario = usuariosCadastrados[usuariosCadastrados.length - 1];
+
+      document.getElementById('nome').value = ultimoUsuario.nome;
+      document.getElementById('data-nascimento').value = ultimoUsuario.dataNascimento;
+      document.getElementById('email').value = ultimoUsuario.email;
+      document.getElementById('telefone').value = ultimoUsuario.telefone;
+
+      // Preencher os campos nos modais "Alterar Dados" e "Trocar Senha"
+      document.getElementById('novo-nome').value = ultimoUsuario.nome;
+      document.getElementById('nova-data').value = ultimoUsuario.dataNascimento;
+      document.getElementById('novo-email').value = ultimoUsuario.email;
+      document.getElementById('novo-telefone').value = ultimoUsuario.telefone;
+    }
+  }
+
+  // Chamar a função ao carregar a página
+  preencherCampos();
+
+  // Adicionar um ouvinte de evento para o botão "Alterar dados" no modal "Alterar Dados"
+  document.getElementById('alterar-dados').addEventListener('click', function () {
+    // Lógica para alterar os dados conforme necessário
+    var usuariosCadastrados = JSON.parse(localStorage.getItem('usuarios')) || [];
+
+  // Verificar se há algum usuário cadastrado
+  if (usuariosCadastrados.length > 0) {
+    // Obter o índice do último usuário cadastrado
+    var indiceUltimoUsuario = usuariosCadastrados.length - 1;
+
+    
+
+    // Atualizar os dados do último usuário
+    usuariosCadastrados[indiceUltimoUsuario].nome = novo-nome;
+    usuariosCadastrados[indiceUltimoUsuario].dataNascimento = nova-data;
+    usuariosCadastrados[indiceUltimoUsuario].email = novo-email;
+    usuariosCadastrados[indiceUltimoUsuario].telefone = novo-telefone;
+
+    // Salvar a lista atualizada no localStorage
+    localStorage.setItem('usuarios', JSON.stringify(usuariosCadastrados));
+  }
+  });
+
+  // Adicionar um ouvinte de evento para o botão "Trocar senha" no modal "Trocar Senha"
+  document.getElementById('troca-senha').addEventListener('click', function () {
+    // Lógica para trocar a senha conforme necessário
+    // ...
+    // Após trocar a senha, se desejar, atualizar novamente os campos chamando preencherCampos();
+  });
+});
+
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Função para alterar os dados do usuário
+    function alterarDados(novoNome, novaData, novoEmail, novoTelefone) {
+      // Obter os usuários do localStorage
+      var usuariosCadastrados = JSON.parse(localStorage.getItem('usuarios')) || [];
+      
+  
+      // Verificar se há algum usuário cadastrado
+      if (usuariosCadastrados.length > 0) {
+        // Obter o índice do último usuário cadastrado
+        var indiceUltimoUsuario = usuariosCadastrados.length - 1;
+  
+        // Atualizar os dados do último usuário
+        usuariosCadastrados[indiceUltimoUsuario].nome = novoNome;
+        usuariosCadastrados[indiceUltimoUsuario].dataNascimento = novaData;
+        usuariosCadastrados[indiceUltimoUsuario].email = novoEmail;
+        usuariosCadastrados[indiceUltimoUsuario].telefone = novoTelefone;
+  
+        // Salvar a lista atualizada no localStorage
+        localStorage.setItem('usuarios', JSON.stringify(usuariosCadastrados));
+      }
+    }
+  
+    // Adicionar um ouvinte de evento para o botão "Alterar dados" no modal "Alterar Dados"
+    document.getElementById('alterar-dados').addEventListener('click', function () {
+      // Obter os novos dados do modal
+      var novoNome = document.getElementById('novo-nome').value;
+      var novaData = document.getElementById('nova-data').value;
+      var novoEmail = document.getElementById('novo-email').value;
+      var novoTelefone = document.getElementById('novo-telefone').value;
+  
+      // Chamar a função para alterar os dados
+      alterarDados(novoNome, novaData, novoEmail, novoTelefone);
+  
+      // Lógica adicional após a alteração dos dados, se necessário
+    });
+  });
+  </script>
   
   </html>
 </html>

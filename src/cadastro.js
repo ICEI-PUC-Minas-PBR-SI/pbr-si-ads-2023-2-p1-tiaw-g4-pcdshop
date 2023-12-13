@@ -35,6 +35,7 @@
 
         // Armazenar a lista atualizada no localStorage
         localStorage.setItem('usuarios', JSON.stringify(usuariosCadastrados));
+        localStorage.setItem('ultimoUsuario', nome);
     }
 
     // Adicionar um listener para o botão de envio
