@@ -9,6 +9,9 @@ main {
 }
 
 footer {
-  /* Estilo do footer */
   margin-top: auto;
+    background-color: #347AFE;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
