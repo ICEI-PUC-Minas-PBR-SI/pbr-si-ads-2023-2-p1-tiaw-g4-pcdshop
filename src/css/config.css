@@ -1,14 +1,49 @@
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
 }
 
-main {
-  flex: 1;
+#profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #347AFE;
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 
-footer {
-  /* Estilo do footer */
-  margin-top: auto;
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #347AFE;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.delete {
+  background-color: #ff0000;
+}
+
+#footer {
+  background-color: #347AFE;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
