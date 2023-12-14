@@ -98,7 +98,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009| O vendedor poderá criar cadastro, anunciar, editar e excluir produtos | ALTA | Artur |
 |RF-010| Gerar automaticamente um codigo referente a cada novo produto cadastrado | ALTA | Samuel|
 |RF-011| A aplicação deverá possuir um processo de compra de produtos incluindo checkout e carrinho | ALTA | Artur |
-|RF-012| O sistema deverá ser responsivo | ALTA | Matheus |
+|RF-012| O sistema deverá ser responsivo | ALTA | Mateus |
 |RF-012| O sistema deverá permitir o comprador realizar o cancelamento de uma compra caso esteja adequado ao codigo de defesa do consumidor | ALTA | Luis |
 |RF-013| Deve ser obrigatorio que o usário insira sua data de nascimento|ALTA| | Luis |
 |RF-014| O Sistema deverá ter uma tela de descrição do item que leva pro carrinho ao clicar em comprar | ALTA | Samuel |
