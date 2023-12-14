@@ -46,12 +46,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade | Responsavel |
 |------|-----------------------------------------|----| ----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | todas telas | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | todas telas |
-|RNF-003| O sistema deve oferecer facilidades para determinados tipos de usuários.|MEDIA| todas telas |
-|RNF-004| Deve aceitar diversos meios de pagamento|ALTA| indexcarrinho.html  |
-|RNF-005| O sistema deve ter capacidade para recuperar os dados perdidos da última recuperação em que realizou em caso de falha|MEDIA| indexcarrinho.html |
-|RNF-006| O sistema deve manter todos os cadastros de produtos em um banco de dados|MEDIA| vendas.html |
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | Mateus | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | Mateus |
+|RNF-003| O sistema deve oferecer facilidades para determinados tipos de usuários.|MEDIA|Todos|
+|RNF-006| O sistema deve manter todos os cadastros de produtos em um banco de dados|MEDIA| Samuel |
 ## Descrição das estruturas:
 
 
