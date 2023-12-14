@@ -20,7 +20,6 @@ Nesse Marketplace, os vendedores (p2p) anunciariam seus produtos, e seriam respo
 * Miguel Araújo Barbosa
 * Luis Felipe Marques Bernardes
 * Igor Emanuel Moreira da Fonseca
-* Artur Freitas Xavier Oliveira
 
 ## Orientador
 
