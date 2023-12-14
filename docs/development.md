@@ -73,6 +73,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Comprar        | String            | Efetuar a compra                          | Total: xxx  Comprar produto                    |
 
+## Tela de favoritos
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Favoritos      | String            | Favoritar um item                         | Adicionado aos favoritos                  |
+
 ## Tela do Produto
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
