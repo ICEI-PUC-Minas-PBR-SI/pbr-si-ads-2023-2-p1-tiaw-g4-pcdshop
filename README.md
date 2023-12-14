@@ -25,7 +25,7 @@ Nesse Marketplace, os vendedores (p2p) anunciariam seus produtos, e seriam respo
 
 * Prof. Fábio Leandro Rodrigues Cordeiro.ME
 * ProfA. Shirley Luana
-* ProfA. Franciele
+* ProfA. Franciele Cristina Parreiras Rodrigues
 
 
 # Planejamento
