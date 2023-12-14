@@ -9,9 +9,7 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 * [Apresentação final](presentation/PCD.pdf) -- arquivo com os slides da apresentação final
 
 
-## Título do Projeto
-
-PCD Shop
+## PCD Shop
 
 ## Identidade Visual (Marca, Design)
 
