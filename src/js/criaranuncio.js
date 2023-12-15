@@ -53,51 +53,19 @@ function atualizarProduto(index) {
 }
 
 function atualizarLista() {
-	var elementoListaImg = document.getElementById('listaImgV2')
-	elementoListaImg.innerHTML = '' 
+  var elementoListaImg = document.getElementById('listaImg')
+  elementoListaImg.innerHTML = '' 
 
-	for(var i = 0; i<listaImg.length; i++){
-		elementoListaImg.innerHTML += '	<div class="col-12 col-md-4">' + 
-		'		<div class="card card-anuncio">' + 
-		'			<div class="mr-item-group header">' + 
-		'				<div class="mr-item-status">ANUNCIADO</div>' + 
-		'				<div class="mr-item-photo">' + 
-		'					<img src="' + listaImg[i] + '" class="mr-img-fluid" />' + 
-		'				</div>' + 
-		'			</div>' + 
-		'			<div class="mr-item-group body">' + 
-		'				<div class="mr-item-textos">' + 
-		'					<div class="mr-item-text-titulo">' + listaNome[i] + '</div>' + 
-		'					<div class="mr-item-text-valor">R$ ' + listaPreco[i] + '</div>' + 
-		'					<div class="mr-item-text-desc">Descrição: ' + listaDescricao[i] + '</div>' + 
-		'				</div>' + 
-		'			</div>' + 
-		'			<div class="mr-item-group footer">' + 
-		'				<div class="mr-btn-acoes">' + 
-		'					<div>' + 
-		'						<button class="btn btn-success" onclick="atualizarProduto(' + i + ')">Atualizar</button>' + 
-		'					</div>' + 
-		'					<div>' + 
-		'						<button class="btn btn-danger" onclick="deletarProduto(' + i + ')">Deletar</button>' + 
-		'					</div>' + 
-		'				</div>' + 
-		'			</div>' + 
-		'		</div>' + 
-		'	</div>';
-
-	
-		// CÓDIGO ANTIGO
-		/*
-		elementoListaImg.innerHTML += '<div class="produto">' +
-		'<img class="minhaImagem" src="' + listaImg[i] + '">' +  
-		'<a class="meuLink" href="' + listaNome[i] + '">' + listaNome[i] + '</a>' + 
-		'<p class="meuPreco">R$: ' + listaPreco[i] + '</p>' + 
-		'<p class="minhaDescricao">Descrição: ' + listaDescricao[i] + '</p>' +
-		'<button class="btn btn-danger" onclick="deletarProduto(' + i + ')">Deletar</button>' +
-		'<button class="btn btn-success" onclick="atualizarProduto(' + i + ')">Atualizar</button>' +
-		'</div>'
-		*/
-	}
+  for(var i = 0; i<listaImg.length; i++){
+    elementoListaImg.innerHTML += '<div class="produto">' +
+                                    '<img class="minhaImagem" src="' + listaImg[i] + '">' +  
+                                    '<a class="meuLink" href="' + listaNome[i] + '">' + listaNome[i] + '</a>' + 
+                                    '<p class="meuPreco">R$: ' + listaPreco[i] + '</p>' + 
+                                    '<p class="minhaDescricao">Descrição: ' + listaDescricao[i] + '</p>' +
+                                    '<button class="btn btn-danger" onclick="deletarProduto(' + i + ')">Deletar</button>' +
+                                    '<button class="btn btn-success" onclick="atualizarProduto(' + i + ')">Atualizar</button>' +
+                                  '</div>'
+  }
 }
 
 function salvarProdutos() {
